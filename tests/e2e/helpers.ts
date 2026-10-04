@@ -4,6 +4,7 @@ import { expect, type Page } from '@playwright/test';
 const load = (f: string) => JSON.parse(readFileSync(new URL(`../../src/data/${f}`, import.meta.url), 'utf8'));
 export const LETTERS: { id: string; char: string; forms: { id: string; text: string; vowel: string }[]; longForms: { id: string; text: string; vowel: string }[] }[] = load('letters.json');
 export const WORDS: { id: string; word: string; segments: string[]; requiredLetters: string[]; level: number }[] = load('words.json');
+export const SOUND_WORDS: { soundId: string; letterId: string; sound: string; word: string }[] = load('sound-words.json');
 export const STORIES: { letter: string; letterId: string }[] = load('stories.json');
 
 export type Vowel = 'fatha' | 'kasra' | 'damma';
@@ -65,10 +66,23 @@ export async function completeCurrentForm(page: Page, vowel: Vowel) {
   await page.getByTestId('next').click();
 }
 
+/** Plays every round of the initial-sound game correctly (it follows the third sound of a letter). */
+export async function playSoundGame(page: Page) {
+  await expect(page.getByTestId('sound-game').or(page.getByTestId('letter-complete'))).toBeVisible();
+  for (let round = 0; round < 3 && (await page.getByTestId('sound-game').isVisible()); round++) {
+    const step = page.getByTestId('step-sound-game');
+    const target = await step.getAttribute('data-target');
+    await step.locator(`[data-testid=word-choice][data-sound-id="${target}"]`).click();
+    await expect(page.getByTestId('game-correct')).toBeVisible();
+    await expect(page.locator(`[data-testid=step-sound-game][data-target="${target}"]`)).toHaveCount(0);
+  }
+}
+
 export async function masterLetterViaUi(page: Page, char: string) {
   const l = letterByChar(char);
   await page.getByTestId(`letter-${l.id}`).click();
   for (const v of ['fatha', 'kasra', 'damma'] as const) await completeCurrentForm(page, v);
+  await playSoundGame(page);
   await expect(page.getByTestId('letter-complete')).toBeVisible();
   await page.getByTestId('choose-another').click();
   await expect(page.getByTestId('home')).toBeVisible();

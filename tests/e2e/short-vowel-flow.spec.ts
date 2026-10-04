@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { completeCurrentForm, holdAndSay, installFakeMic, letterByChar, masterLetterViaUi } from './helpers';
+import { completeCurrentForm, holdAndSay, installFakeMic, letterByChar, masterLetterViaUi, playSoundGame, SOUND_WORDS } from './helpers';
 
 test.beforeEach(async ({ page }) => {
   await installFakeMic(page);
@@ -79,6 +79,7 @@ test('TEST 5 + 6 — مَ then مِ then مُ; م gets ✓ on home', async ({ pa
   await completeCurrentForm(page, 'kasra');
   await expect(page.getByTestId('listen-target')).toHaveText('مُ');
   await completeCurrentForm(page, 'damma');
+  await playSoundGame(page);
   await expect(page.getByTestId('letter-complete')).toBeVisible();
   await expect(page.getByTestId('complete-message')).toContainText('أَتْمَمْتَ حَرْفَ م');
   await page.getByTestId('choose-another').click();
@@ -100,6 +101,7 @@ test('a lesson resumes at the first unfinished form', async ({ page }) => {
 });
 
 test('TEST 7 — any letter in any order (ظ then أ)', async ({ page }) => {
+  test.setTimeout(120_000); // two full lessons, each followed by the game
   await page.goto('/');
   await masterLetterViaUi(page, 'ظ');
   await page.getByTestId('letter-alif').click();
@@ -109,6 +111,7 @@ test('TEST 7 — any letter in any order (ظ then أ)', async ({ page }) => {
   await completeCurrentForm(page, 'kasra');
   await expect(page.getByTestId('listen-target')).toHaveText('أُ');
   await completeCurrentForm(page, 'damma');
+  await playSoundGame(page);
   await page.getByTestId('choose-another').click();
   for (const id of ['zhaa', 'alif']) await expect(page.getByTestId(`letter-${id}`)).toHaveAttribute('data-mastered', 'true');
   await expect(page.getByTestId('letter-baa')).toHaveAttribute('data-mastered', 'false');
@@ -150,4 +153,45 @@ test('back/home navigation from every main screen', async ({ page }) => {
     await page.getByTestId('nav-home').click();
     await expect(page.getByTestId('home')).toBeVisible();
   }
+});
+
+test('initial-sound game: after the third sound, wrong → try again (not revealed), right → confetti + praise, one round per word', async ({ page }) => {
+  // ض has picture words for ضَ and ضِ only, so its game has two rounds.
+  const daad = letterByChar('ض');
+  const words = SOUND_WORDS.filter((w) => w.letterId === daad.id);
+  expect(words.map((w) => w.sound)).toEqual(['ضَ', 'ضِ']);
+  await page.addInitScript((ids) => {
+    const done = Object.fromEntries(ids.map((id) => [id, '2026-01-01T00:00:00Z']));
+    localStorage.setItem('arabic-reading:progress:v1', JSON.stringify({
+      version: 1, profileId: 'default', completedForms: done, discrimination: { attempts: 0, correct: 0 }, pronunciation: { attempts: 0, correct: 0 },
+      attempts: [], wordsBuilt: {}, wordsAnalysed: {}, storiesCompleted: {}, sentencesRead: {}, miniStoriesRead: {}, updatedAt: '2026-01-01T00:00:00Z',
+    }));
+  }, daad.forms.slice(0, 2).map((f) => f.id));
+  await page.goto(`/#/letter/${daad.id}`);
+  await completeCurrentForm(page, 'damma');
+
+  const step = page.getByTestId('step-sound-game');
+  await expect(step).toHaveAttribute('data-target', 'daad_a');
+  await expect(page.getByTestId('game-sound')).toHaveText('ضَ');
+  const cards = step.getByTestId('word-choice');
+  await expect(cards).toHaveCount(3);
+  await expect(step.locator('[data-sound-id="daad_a"]')).toContainText('ضَبَاب');
+
+  // Wrong card: gentle retry, no confetti, the answer is not marked.
+  await step.locator('[data-testid=word-choice]:not([data-sound-id="daad_a"])').first().click();
+  await expect(page.getByTestId('feedback-try')).toBeVisible();
+  await expect(page.getByTestId('confetti')).toHaveCount(0);
+  await expect(step.locator('.choice.correct')).toHaveCount(0);
+
+  // Right card: confetti + praise, then the next round by itself.
+  await step.locator('[data-sound-id="daad_a"]').click();
+  await expect(page.getByTestId('confetti')).toBeVisible();
+  await expect(page.getByTestId('game-correct')).toBeVisible();
+  await expect(step).toHaveAttribute('data-target', 'daad_i', { timeout: 6000 });
+  await step.locator('[data-sound-id="daad_i"]').click();
+  await expect(page.getByTestId('letter-complete')).toBeVisible({ timeout: 6000 });
+
+  // The game can be replayed from the completion screen.
+  await page.getByTestId('play-again').click();
+  await expect(page.getByTestId('step-sound-game')).toHaveAttribute('data-target', 'daad_a');
 });

@@ -49,3 +49,21 @@ Every instruction is fully vowelled and has an audio path.
 ## Arabic review
 
 The content was written with care for correct MSA and full tashkeel, but a qualified Arabic specialist should still review every story, word and instruction before release, just like the audio.
+
+## Initial-sound game words (`src/data/sound-words.json`)
+
+After a child finishes the three sounds of a letter, they play a short listening
+game: they hear a sound (مَ) and choose the picture word that starts with it
+(مَطَر). A right answer is rewarded with confetti and clapping; a wrong one
+replays the sound and is never revealed.
+
+- One entry per sound: `soundId` (e.g. `meem_a`), `word` (fully vowelled),
+  `emoji` (the picture), `gloss` (English label) and `audio`.
+- A letter gets one round for each of its sounds that has a word, so a letter
+  can have one, two or three rounds. Leave a sound out if it has no easy word.
+- The word must start with exactly that sound; the unit tests check this.
+- These words are **heard, not decoded**, so they are the one place where
+  letters, sukun, shadda and long vowels the child has not learned may appear.
+  They are never used in reading, word-building or sentence activities.
+- Word recordings go in `public/audio/sound-words/`. For real clapping, add
+  `public/audio/effects/applause.mp3`; until then a synthesised clap is used.

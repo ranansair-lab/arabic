@@ -21,7 +21,10 @@ for (const s of data('stories.json')) {
   s.sentences.forEach((t, i) => add(s.sentenceAudio[i], t, '', `story ${s.letter} sentence ${i + 1} (optional; enables highlighting)`));
 }
 for (const s of data('sentences.json')) add(s.audio, s.text, '', `decodable sentence — ${s.gloss}`);
+for (const w of data('sound-words.json')) add(w.audio, w.word, '', `initial-sound game word for ${w.sound} — ${w.gloss}`);
 for (const i of data('instructions.json')) add(i.audio, i.text, '', 'instruction');
+
+add('effects/applause.mp3', '', '', 'optional: real clapping for the game reward (a synthesised clap is used until this exists)');
 
 const csv = rows.map((r) => r.map((c) => `"${String(c).replace(/"/g, '""')}"`).join(',')).join('\n');
 writeFileSync(new URL('../docs/audio-checklist.csv', import.meta.url), '\ufeff' + csv + '\n');

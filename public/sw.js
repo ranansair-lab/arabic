@@ -1,6 +1,6 @@
 // Offline support: network-first for the app shell and manifest (so new
 // recordings appear), cache-first for hashed assets, fonts and audio.
-const CACHE = 'arabic-reading-v1';
+const CACHE = 'arabic-reading-v2'; // bump when a recording is replaced under the same file name
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', (event) => {

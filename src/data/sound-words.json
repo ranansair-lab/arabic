@@ -1,0 +1,731 @@
+[
+  {
+    "soundId": "alif_a",
+    "letterId": "alif",
+    "sound": "أَ",
+    "word": "أَسَد",
+    "emoji": "🦁",
+    "gloss": "lion",
+    "audio": "sound-words/alif_a.mp3"
+  },
+  {
+    "soundId": "alif_i",
+    "letterId": "alif",
+    "sound": "إِ",
+    "word": "إِبْرَة",
+    "emoji": "🪡",
+    "gloss": "needle",
+    "audio": "sound-words/alif_i.mp3"
+  },
+  {
+    "soundId": "alif_u",
+    "letterId": "alif",
+    "sound": "أُ",
+    "word": "أُذُن",
+    "emoji": "👂",
+    "gloss": "ear",
+    "audio": "sound-words/alif_u.mp3"
+  },
+  {
+    "soundId": "baa_a",
+    "letterId": "baa",
+    "sound": "بَ",
+    "word": "بَطَّة",
+    "emoji": "🦆",
+    "gloss": "duck",
+    "audio": "sound-words/baa_a.mp3"
+  },
+  {
+    "soundId": "baa_i",
+    "letterId": "baa",
+    "sound": "بِ",
+    "word": "بِنْت",
+    "emoji": "👧",
+    "gloss": "girl",
+    "audio": "sound-words/baa_i.mp3"
+  },
+  {
+    "soundId": "baa_u",
+    "letterId": "baa",
+    "sound": "بُ",
+    "word": "بُرْج",
+    "emoji": "🗼",
+    "gloss": "tower",
+    "audio": "sound-words/baa_u.mp3"
+  },
+  {
+    "soundId": "taa_a",
+    "letterId": "taa",
+    "sound": "تَ",
+    "word": "تَمْر",
+    "emoji": "🌴",
+    "gloss": "dates",
+    "audio": "sound-words/taa_a.mp3"
+  },
+  {
+    "soundId": "taa_i",
+    "letterId": "taa",
+    "sound": "تِ",
+    "word": "تِمْسَاح",
+    "emoji": "🐊",
+    "gloss": "crocodile",
+    "audio": "sound-words/taa_i.mp3"
+  },
+  {
+    "soundId": "taa_u",
+    "letterId": "taa",
+    "sound": "تُ",
+    "word": "تُفَّاح",
+    "emoji": "🍎",
+    "gloss": "apples",
+    "audio": "sound-words/taa_u.mp3"
+  },
+  {
+    "soundId": "thaa_a",
+    "letterId": "thaa",
+    "sound": "ثَ",
+    "word": "ثَلْج",
+    "emoji": "❄️",
+    "gloss": "snow",
+    "audio": "sound-words/thaa_a.mp3"
+  },
+  {
+    "soundId": "thaa_i",
+    "letterId": "thaa",
+    "sound": "ثِ",
+    "word": "ثِقَة",
+    "emoji": "🤝",
+    "gloss": "trust",
+    "audio": "sound-words/thaa_i.mp3"
+  },
+  {
+    "soundId": "thaa_u",
+    "letterId": "thaa",
+    "sound": "ثُ",
+    "word": "ثُعْبَان",
+    "emoji": "🐍",
+    "gloss": "snake",
+    "audio": "sound-words/thaa_u.mp3"
+  },
+  {
+    "soundId": "jeem_a",
+    "letterId": "jeem",
+    "sound": "جَ",
+    "word": "جَمَل",
+    "emoji": "🐪",
+    "gloss": "camel",
+    "audio": "sound-words/jeem_a.mp3"
+  },
+  {
+    "soundId": "jeem_i",
+    "letterId": "jeem",
+    "sound": "جِ",
+    "word": "جِسْر",
+    "emoji": "🌉",
+    "gloss": "bridge",
+    "audio": "sound-words/jeem_i.mp3"
+  },
+  {
+    "soundId": "jeem_u",
+    "letterId": "jeem",
+    "sound": "جُ",
+    "word": "جُبْن",
+    "emoji": "🧀",
+    "gloss": "cheese",
+    "audio": "sound-words/jeem_u.mp3"
+  },
+  {
+    "soundId": "hhaa_a",
+    "letterId": "hhaa",
+    "sound": "حَ",
+    "word": "حَبْل",
+    "emoji": "🪢",
+    "gloss": "rope",
+    "audio": "sound-words/hhaa_a.mp3"
+  },
+  {
+    "soundId": "hhaa_i",
+    "letterId": "hhaa",
+    "sound": "حِ",
+    "word": "حِصَان",
+    "emoji": "🐴",
+    "gloss": "horse",
+    "audio": "sound-words/hhaa_i.mp3"
+  },
+  {
+    "soundId": "hhaa_u",
+    "letterId": "hhaa",
+    "sound": "حُ",
+    "word": "حُفْرَة",
+    "emoji": "🕳️",
+    "gloss": "hole",
+    "audio": "sound-words/hhaa_u.mp3"
+  },
+  {
+    "soundId": "khaa_a",
+    "letterId": "khaa",
+    "sound": "خَ",
+    "word": "خَرُوف",
+    "emoji": "🐑",
+    "gloss": "sheep",
+    "audio": "sound-words/khaa_a.mp3"
+  },
+  {
+    "soundId": "khaa_i",
+    "letterId": "khaa",
+    "sound": "خِ",
+    "word": "خِرْفَان",
+    "emoji": "🐏",
+    "gloss": "lambs",
+    "audio": "sound-words/khaa_i.mp3"
+  },
+  {
+    "soundId": "khaa_u",
+    "letterId": "khaa",
+    "sound": "خُ",
+    "word": "خُبْز",
+    "emoji": "🍞",
+    "gloss": "bread",
+    "audio": "sound-words/khaa_u.mp3"
+  },
+  {
+    "soundId": "daal_a",
+    "letterId": "daal",
+    "sound": "دَ",
+    "word": "دَجَاج",
+    "emoji": "🐔",
+    "gloss": "chicken",
+    "audio": "sound-words/daal_a.mp3"
+  },
+  {
+    "soundId": "daal_i",
+    "letterId": "daal",
+    "sound": "دِ",
+    "word": "دِرْع",
+    "emoji": "🛡️",
+    "gloss": "shield",
+    "audio": "sound-words/daal_i.mp3"
+  },
+  {
+    "soundId": "daal_u",
+    "letterId": "daal",
+    "sound": "دُ",
+    "word": "دُبّ",
+    "emoji": "🐻",
+    "gloss": "bear",
+    "audio": "sound-words/daal_u.mp3"
+  },
+  {
+    "soundId": "dhaal_a",
+    "letterId": "dhaal",
+    "sound": "ذَ",
+    "word": "ذَهَب",
+    "emoji": "🥇",
+    "gloss": "gold",
+    "audio": "sound-words/dhaal_a.mp3"
+  },
+  {
+    "soundId": "dhaal_i",
+    "letterId": "dhaal",
+    "sound": "ذِ",
+    "word": "ذِئْب",
+    "emoji": "🐺",
+    "gloss": "wolf",
+    "audio": "sound-words/dhaal_i.mp3"
+  },
+  {
+    "soundId": "dhaal_u",
+    "letterId": "dhaal",
+    "sound": "ذُ",
+    "word": "ذُرَة",
+    "emoji": "🌽",
+    "gloss": "corn",
+    "audio": "sound-words/dhaal_u.mp3"
+  },
+  {
+    "soundId": "raa_a",
+    "letterId": "raa",
+    "sound": "رَ",
+    "word": "رَمْل",
+    "emoji": "🏖️",
+    "gloss": "sand",
+    "audio": "sound-words/raa_a.mp3"
+  },
+  {
+    "soundId": "raa_i",
+    "letterId": "raa",
+    "sound": "رِ",
+    "word": "رِجْل",
+    "emoji": "🦵",
+    "gloss": "leg",
+    "audio": "sound-words/raa_i.mp3"
+  },
+  {
+    "soundId": "raa_u",
+    "letterId": "raa",
+    "sound": "رُ",
+    "word": "رُمَّان",
+    "emoji": "🍒",
+    "gloss": "pomegranate",
+    "audio": "sound-words/raa_u.mp3"
+  },
+  {
+    "soundId": "zaay_a",
+    "letterId": "zaay",
+    "sound": "زَ",
+    "word": "زَهْرَة",
+    "emoji": "🌸",
+    "gloss": "flower",
+    "audio": "sound-words/zaay_a.mp3"
+  },
+  {
+    "soundId": "zaay_i",
+    "letterId": "zaay",
+    "sound": "زِ",
+    "word": "زِرّ",
+    "emoji": "🔘",
+    "gloss": "button",
+    "audio": "sound-words/zaay_i.mp3"
+  },
+  {
+    "soundId": "zaay_u",
+    "letterId": "zaay",
+    "sound": "زُ",
+    "word": "زُجَاج",
+    "emoji": "🪟",
+    "gloss": "glass",
+    "audio": "sound-words/zaay_u.mp3"
+  },
+  {
+    "soundId": "seen_a",
+    "letterId": "seen",
+    "sound": "سَ",
+    "word": "سَمَك",
+    "emoji": "🐟",
+    "gloss": "fish",
+    "audio": "sound-words/seen_a.mp3"
+  },
+  {
+    "soundId": "seen_i",
+    "letterId": "seen",
+    "sound": "سِ",
+    "word": "سِجَادَة",
+    "emoji": "🧶",
+    "gloss": "carpet",
+    "audio": "sound-words/seen_i.mp3"
+  },
+  {
+    "soundId": "seen_u",
+    "letterId": "seen",
+    "sound": "سُ",
+    "word": "سُلَّم",
+    "emoji": "🪜",
+    "gloss": "ladder",
+    "audio": "sound-words/seen_u.mp3"
+  },
+  {
+    "soundId": "sheen_a",
+    "letterId": "sheen",
+    "sound": "شَ",
+    "word": "شَمْس",
+    "emoji": "☀️",
+    "gloss": "sun",
+    "audio": "sound-words/sheen_a.mp3"
+  },
+  {
+    "soundId": "sheen_i",
+    "letterId": "sheen",
+    "sound": "شِ",
+    "word": "شِبْل",
+    "emoji": "🦁",
+    "gloss": "lion cub",
+    "audio": "sound-words/sheen_i.mp3"
+  },
+  {
+    "soundId": "sheen_u",
+    "letterId": "sheen",
+    "sound": "شُ",
+    "word": "شُرْطِيّ",
+    "emoji": "👮",
+    "gloss": "police officer",
+    "audio": "sound-words/sheen_u.mp3"
+  },
+  {
+    "soundId": "saad_a",
+    "letterId": "saad",
+    "sound": "صَ",
+    "word": "صَقْر",
+    "emoji": "🦅",
+    "gloss": "falcon",
+    "audio": "sound-words/saad_a.mp3"
+  },
+  {
+    "soundId": "saad_i",
+    "letterId": "saad",
+    "sound": "صِ",
+    "word": "صِفْر",
+    "emoji": "0️⃣",
+    "gloss": "zero",
+    "audio": "sound-words/saad_i.mp3"
+  },
+  {
+    "soundId": "saad_u",
+    "letterId": "saad",
+    "sound": "صُ",
+    "word": "صُنْدُوق",
+    "emoji": "📦",
+    "gloss": "box",
+    "audio": "sound-words/saad_u.mp3"
+  },
+  {
+    "soundId": "daad_a",
+    "letterId": "daad",
+    "sound": "ضَ",
+    "word": "ضَبَاب",
+    "emoji": "🌫️",
+    "gloss": "fog",
+    "audio": "sound-words/daad_a.mp3"
+  },
+  {
+    "soundId": "daad_i",
+    "letterId": "daad",
+    "sound": "ضِ",
+    "word": "ضِفْدَع",
+    "emoji": "🐸",
+    "gloss": "frog",
+    "audio": "sound-words/daad_i.mp3"
+  },
+  {
+    "soundId": "ttaa_a",
+    "letterId": "ttaa",
+    "sound": "طَ",
+    "word": "طَبْل",
+    "emoji": "🥁",
+    "gloss": "drum",
+    "audio": "sound-words/ttaa_a.mp3"
+  },
+  {
+    "soundId": "ttaa_i",
+    "letterId": "ttaa",
+    "sound": "طِ",
+    "word": "طِفْل",
+    "emoji": "🧒",
+    "gloss": "child",
+    "audio": "sound-words/ttaa_i.mp3"
+  },
+  {
+    "soundId": "ttaa_u",
+    "letterId": "ttaa",
+    "sound": "طُ",
+    "word": "طُيُور",
+    "emoji": "🕊️",
+    "gloss": "birds",
+    "audio": "sound-words/ttaa_u.mp3"
+  },
+  {
+    "soundId": "zhaa_a",
+    "letterId": "zhaa",
+    "sound": "ظَ",
+    "word": "ظَرْف",
+    "emoji": "✉️",
+    "gloss": "envelope",
+    "audio": "sound-words/zhaa_a.mp3"
+  },
+  {
+    "soundId": "zhaa_i",
+    "letterId": "zhaa",
+    "sound": "ظِ",
+    "word": "ظِلّ",
+    "emoji": "👤",
+    "gloss": "shadow",
+    "audio": "sound-words/zhaa_i.mp3"
+  },
+  {
+    "soundId": "zhaa_u",
+    "letterId": "zhaa",
+    "sound": "ظُ",
+    "word": "ظُفْر",
+    "emoji": "💅",
+    "gloss": "fingernail",
+    "audio": "sound-words/zhaa_u.mp3"
+  },
+  {
+    "soundId": "ain_a",
+    "letterId": "ain",
+    "sound": "عَ",
+    "word": "عَسَل",
+    "emoji": "🍯",
+    "gloss": "honey",
+    "audio": "sound-words/ain_a.mp3"
+  },
+  {
+    "soundId": "ain_i",
+    "letterId": "ain",
+    "sound": "عِ",
+    "word": "عِنَب",
+    "emoji": "🍇",
+    "gloss": "grapes",
+    "audio": "sound-words/ain_i.mp3"
+  },
+  {
+    "soundId": "ain_u",
+    "letterId": "ain",
+    "sound": "عُ",
+    "word": "عُلْبَة",
+    "emoji": "🥫",
+    "gloss": "tin",
+    "audio": "sound-words/ain_u.mp3"
+  },
+  {
+    "soundId": "ghain_a",
+    "letterId": "ghain",
+    "sound": "غَ",
+    "word": "غَزَال",
+    "emoji": "🦌",
+    "gloss": "gazelle",
+    "audio": "sound-words/ghain_a.mp3"
+  },
+  {
+    "soundId": "ghain_i",
+    "letterId": "ghain",
+    "sound": "غِ",
+    "word": "غِذَاء",
+    "emoji": "🍽️",
+    "gloss": "food",
+    "audio": "sound-words/ghain_i.mp3"
+  },
+  {
+    "soundId": "ghain_u",
+    "letterId": "ghain",
+    "sound": "غُ",
+    "word": "غُرْفَة",
+    "emoji": "🛏️",
+    "gloss": "room",
+    "audio": "sound-words/ghain_u.mp3"
+  },
+  {
+    "soundId": "faa_a",
+    "letterId": "faa",
+    "sound": "فَ",
+    "word": "فَرَاشَة",
+    "emoji": "🦋",
+    "gloss": "butterfly",
+    "audio": "sound-words/faa_a.mp3"
+  },
+  {
+    "soundId": "faa_i",
+    "letterId": "faa",
+    "sound": "فِ",
+    "word": "فِكْرَة",
+    "emoji": "💡",
+    "gloss": "idea",
+    "audio": "sound-words/faa_i.mp3"
+  },
+  {
+    "soundId": "faa_u",
+    "letterId": "faa",
+    "sound": "فُ",
+    "word": "فُنْدُق",
+    "emoji": "🏨",
+    "gloss": "hotel",
+    "audio": "sound-words/faa_u.mp3"
+  },
+  {
+    "soundId": "qaaf_a",
+    "letterId": "qaaf",
+    "sound": "قَ",
+    "word": "قَلَم",
+    "emoji": "✏️",
+    "gloss": "pencil",
+    "audio": "sound-words/qaaf_a.mp3"
+  },
+  {
+    "soundId": "qaaf_i",
+    "letterId": "qaaf",
+    "sound": "قِ",
+    "word": "قِطّ",
+    "emoji": "🐈",
+    "gloss": "cat",
+    "audio": "sound-words/qaaf_i.mp3"
+  },
+  {
+    "soundId": "qaaf_u",
+    "letterId": "qaaf",
+    "sound": "قُ",
+    "word": "قُفْل",
+    "emoji": "🔒",
+    "gloss": "lock",
+    "audio": "sound-words/qaaf_u.mp3"
+  },
+  {
+    "soundId": "kaaf_a",
+    "letterId": "kaaf",
+    "sound": "كَ",
+    "word": "كَلْب",
+    "emoji": "🐕",
+    "gloss": "dog",
+    "audio": "sound-words/kaaf_a.mp3"
+  },
+  {
+    "soundId": "kaaf_i",
+    "letterId": "kaaf",
+    "sound": "كِ",
+    "word": "كِتَاب",
+    "emoji": "📖",
+    "gloss": "book",
+    "audio": "sound-words/kaaf_i.mp3"
+  },
+  {
+    "soundId": "kaaf_u",
+    "letterId": "kaaf",
+    "sound": "كُ",
+    "word": "كُرَة",
+    "emoji": "⚽",
+    "gloss": "ball",
+    "audio": "sound-words/kaaf_u.mp3"
+  },
+  {
+    "soundId": "laam_a",
+    "letterId": "laam",
+    "sound": "لَ",
+    "word": "لَبَن",
+    "emoji": "🥛",
+    "gloss": "milk",
+    "audio": "sound-words/laam_a.mp3"
+  },
+  {
+    "soundId": "laam_i",
+    "letterId": "laam",
+    "sound": "لِ",
+    "word": "لِحَاف",
+    "emoji": "🛌",
+    "gloss": "quilt",
+    "audio": "sound-words/laam_i.mp3"
+  },
+  {
+    "soundId": "laam_u",
+    "letterId": "laam",
+    "sound": "لُ",
+    "word": "لُعْبَة",
+    "emoji": "🧸",
+    "gloss": "toy",
+    "audio": "sound-words/laam_u.mp3"
+  },
+  {
+    "soundId": "meem_a",
+    "letterId": "meem",
+    "sound": "مَ",
+    "word": "مَطَر",
+    "emoji": "🌧️",
+    "gloss": "rain",
+    "audio": "sound-words/meem_a.mp3"
+  },
+  {
+    "soundId": "meem_i",
+    "letterId": "meem",
+    "sound": "مِ",
+    "word": "مِشْط",
+    "emoji": "💇",
+    "gloss": "comb",
+    "audio": "sound-words/meem_i.mp3"
+  },
+  {
+    "soundId": "meem_u",
+    "letterId": "meem",
+    "sound": "مُ",
+    "word": "مُثَلَّث",
+    "emoji": "📐",
+    "gloss": "triangle",
+    "audio": "sound-words/meem_u.mp3"
+  },
+  {
+    "soundId": "noon_a",
+    "letterId": "noon",
+    "sound": "نَ",
+    "word": "نَمْل",
+    "emoji": "🐜",
+    "gloss": "ants",
+    "audio": "sound-words/noon_a.mp3"
+  },
+  {
+    "soundId": "noon_i",
+    "letterId": "noon",
+    "sound": "نِ",
+    "word": "نِمْر",
+    "emoji": "🐅",
+    "gloss": "tiger",
+    "audio": "sound-words/noon_i.mp3"
+  },
+  {
+    "soundId": "noon_u",
+    "letterId": "noon",
+    "sound": "نُ",
+    "word": "نُقُود",
+    "emoji": "🪙",
+    "gloss": "coins",
+    "audio": "sound-words/noon_u.mp3"
+  },
+  {
+    "soundId": "haa_a",
+    "letterId": "haa",
+    "sound": "هَ",
+    "word": "هَرَم",
+    "emoji": "🔺",
+    "gloss": "pyramid",
+    "audio": "sound-words/haa_a.mp3"
+  },
+  {
+    "soundId": "haa_i",
+    "letterId": "haa",
+    "sound": "هِ",
+    "word": "هِرّ",
+    "emoji": "😺",
+    "gloss": "kitten",
+    "audio": "sound-words/haa_i.mp3"
+  },
+  {
+    "soundId": "haa_u",
+    "letterId": "haa",
+    "sound": "هُ",
+    "word": "هُدْهُد",
+    "emoji": "🐦",
+    "gloss": "hoopoe",
+    "audio": "sound-words/haa_u.mp3"
+  },
+  {
+    "soundId": "waaw_a",
+    "letterId": "waaw",
+    "sound": "وَ",
+    "word": "وَرْد",
+    "emoji": "🌹",
+    "gloss": "roses",
+    "audio": "sound-words/waaw_a.mp3"
+  },
+  {
+    "soundId": "waaw_i",
+    "letterId": "waaw",
+    "sound": "وِ",
+    "word": "وِسَادَة",
+    "emoji": "🛋️",
+    "gloss": "pillow",
+    "audio": "sound-words/waaw_i.mp3"
+  },
+  {
+    "soundId": "waaw_u",
+    "letterId": "waaw",
+    "sound": "وُ",
+    "word": "وُجُوه",
+    "emoji": "🙂",
+    "gloss": "faces",
+    "audio": "sound-words/waaw_u.mp3"
+  },
+  {
+    "soundId": "yaa_a",
+    "letterId": "yaa",
+    "sound": "يَ",
+    "word": "يَد",
+    "emoji": "✋",
+    "gloss": "hand",
+    "audio": "sound-words/yaa_a.mp3"
+  }
+]

@@ -153,5 +153,15 @@
     "id": "audio_unavailable",
     "text": "الصَّوْتُ غَيْرُ مُتَاحٍ",
     "audio": "instructions/audio_unavailable.mp3"
+  },
+  {
+    "id": "which_word_starts",
+    "text": "أَيُّ كَلِمَةٍ تَبْدَأُ بِهَذَا الصَّوْتِ؟",
+    "audio": "instructions/which_word_starts.mp3"
+  },
+  {
+    "id": "play_again",
+    "text": "اِلْعَبْ مَرَّةً أُخْرَى",
+    "audio": "instructions/play_again.mp3"
   }
 ]

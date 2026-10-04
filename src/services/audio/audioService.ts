@@ -101,6 +101,14 @@ export class AudioService {
     throw new AudioUnavailableError(clip, 'no validated recording yet');
   }
 
+  /** Plays a recorded sound effect alongside speech (does not stop or get stopped by it). */
+  async playEffect(clip: AudioClip): Promise<void> {
+    await this.init();
+    const file = this.manifest.files[stem(clip.audio)];
+    if (!file) return;
+    await new Audio(`${this.baseUrl}audio/${file}`).play();
+  }
+
   /** Plays clips one after another; `onIndex` reports the clip being played. */
   async playSequence(clips: AudioClip[], onIndex?: (i: number) => void): Promise<void> {
     for (let i = 0; i < clips.length; i++) {

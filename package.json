@@ -1,0 +1,36 @@
+{
+  "name": "arabic-early-reading",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run audio:manifest && tsc -b && vite build",
+    "build:preview": "npm run audio:manifest && tsc -b && vite build --mode devaudio",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "audio:manifest": "node scripts/build-audio-manifest.mjs",
+    "audio:checklist": "node scripts/export-audio-checklist.mjs",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource/baloo-bhaijaan-2": "^5.2.0",
+    "@fontsource/noto-naskh-arabic": "^5.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}

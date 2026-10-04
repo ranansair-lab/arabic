@@ -1,0 +1,450 @@
+[
+  {
+    "letter": "أ",
+    "letterId": "alif",
+    "title": "أَحْمَدُ وَالْأَرْنَبُ",
+    "sentences": [
+      "أَحْمَدُ أَكَلَ أَرُزًّا.",
+      "أُمُّ أَحْمَدَ أَعْطَتْهُ أَرْنَبًا.",
+      "أَحْمَدُ أَحَبَّ أَرْنَبَهُ."
+    ],
+    "audio": "stories/alif.mp3",
+    "sentenceAudio": [
+      "stories/alif_1.mp3",
+      "stories/alif_2.mp3",
+      "stories/alif_3.mp3"
+    ]
+  },
+  {
+    "letter": "ب",
+    "letterId": "baa",
+    "title": "بَيْتُ بَاسِمٍ",
+    "sentences": [
+      "بَاسِمٌ بَنَى بَيْتًا.",
+      "بَيْتُ بَاسِمٍ بِجَانِبِ بَحْرٍ.",
+      "بَاسِمٌ يُحِبُّ بَيْتَهُ."
+    ],
+    "audio": "stories/baa.mp3",
+    "sentenceAudio": [
+      "stories/baa_1.mp3",
+      "stories/baa_2.mp3",
+      "stories/baa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ت",
+    "letterId": "taa",
+    "title": "تَالَا وَالتُّوتُ",
+    "sentences": [
+      "تَالَا تُحِبُّ التُّوتَ.",
+      "تَالَا تَأْكُلُ تُوتًا وَتَمْرًا.",
+      "تَالَا تَبْتَسِمُ."
+    ],
+    "audio": "stories/taa.mp3",
+    "sentenceAudio": [
+      "stories/taa_1.mp3",
+      "stories/taa_2.mp3",
+      "stories/taa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ث",
+    "letterId": "thaa",
+    "title": "ثَوْبُ ثَامِرٍ",
+    "sentences": [
+      "ثَامِرٌ عِنْدَهُ ثَوْبٌ.",
+      "ثَوْبُ ثَامِرٍ ثَقِيلٌ.",
+      "ثَامِرٌ يُحِبُّ ثَوْبَهُ الثَّقِيلَ."
+    ],
+    "audio": "stories/thaa.mp3",
+    "sentenceAudio": [
+      "stories/thaa_1.mp3",
+      "stories/thaa_2.mp3",
+      "stories/thaa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ج",
+    "letterId": "jeem",
+    "title": "جَمَلُ جَمِيلَةَ",
+    "sentences": [
+      "جَمِيلَةُ عِنْدَهَا جَمَلٌ.",
+      "جَمَلُ جَمِيلَةَ جَائِعٌ جِدًّا.",
+      "جَمِيلَةُ تُعْطِي جَمَلَهَا جَزَرًا."
+    ],
+    "audio": "stories/jeem.mp3",
+    "sentenceAudio": [
+      "stories/jeem_1.mp3",
+      "stories/jeem_2.mp3",
+      "stories/jeem_3.mp3"
+    ]
+  },
+  {
+    "letter": "ح",
+    "letterId": "hhaa",
+    "title": "حِصَانُ حَامِدٍ",
+    "sentences": [
+      "حَامِدٌ عِنْدَهُ حِصَانٌ.",
+      "حِصَانُ حَامِدٍ حُلْوٌ.",
+      "حَامِدٌ يُحِبُّ حِصَانَهُ."
+    ],
+    "audio": "stories/hhaa.mp3",
+    "sentenceAudio": [
+      "stories/hhaa_1.mp3",
+      "stories/hhaa_2.mp3",
+      "stories/hhaa_3.mp3"
+    ]
+  },
+  {
+    "letter": "خ",
+    "letterId": "khaa",
+    "title": "خَرُوفُ خَالِدٍ",
+    "sentences": [
+      "خَالِدٌ عِنْدَهُ خَرُوفٌ.",
+      "خَرُوفُ خَالِدٍ يَأْكُلُ خُبْزًا.",
+      "خَالِدٌ وَخَرُوفُهُ فِي الْخَيْمَةِ."
+    ],
+    "audio": "stories/khaa.mp3",
+    "sentenceAudio": [
+      "stories/khaa_1.mp3",
+      "stories/khaa_2.mp3",
+      "stories/khaa_3.mp3"
+    ]
+  },
+  {
+    "letter": "د",
+    "letterId": "daal",
+    "title": "دُبُّ دَانَةَ",
+    "sentences": [
+      "دَانَةُ عِنْدَهَا دُبٌّ.",
+      "دُبُّ دَانَةَ دَافِئٌ.",
+      "دَانَةُ تُحِبُّ دُبَّهَا."
+    ],
+    "audio": "stories/daal.mp3",
+    "sentenceAudio": [
+      "stories/daal_1.mp3",
+      "stories/daal_2.mp3",
+      "stories/daal_3.mp3"
+    ]
+  },
+  {
+    "letter": "ذ",
+    "letterId": "dhaal",
+    "title": "الذِّئْبُ الصَّغِيرُ",
+    "sentences": [
+      "ذَهَبَ ذِئْبٌ صَغِيرٌ.",
+      "ذَيْلُ الذِّئْبِ ذَهَبِيٌّ.",
+      "أَكَلَ الذِّئْبُ ذُرَةً لَذِيذَةً."
+    ],
+    "audio": "stories/dhaal.mp3",
+    "sentenceAudio": [
+      "stories/dhaal_1.mp3",
+      "stories/dhaal_2.mp3",
+      "stories/dhaal_3.mp3"
+    ]
+  },
+  {
+    "letter": "ر",
+    "letterId": "raa",
+    "title": "رُمَّانُ رَاشِدٍ",
+    "sentences": [
+      "رَاشِدٌ رَسَمَ رُمَّانَةً.",
+      "رُمَّانَةُ رَاشِدٍ حَمْرَاءُ.",
+      "رَاشِدٌ رَسَمَ رُمَّانًا كَثِيرًا."
+    ],
+    "audio": "stories/raa.mp3",
+    "sentenceAudio": [
+      "stories/raa_1.mp3",
+      "stories/raa_2.mp3",
+      "stories/raa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ز",
+    "letterId": "zaay",
+    "title": "زَهْرَةُ زَيْدٍ",
+    "sentences": [
+      "زَيْدٌ زَرَعَ زَهْرَةً.",
+      "زَهْرَةُ زَيْدٍ زَاهِيَةٌ.",
+      "زَيْدٌ وَزَيْنَبُ يَزُورَانِ الزَّهْرَةَ."
+    ],
+    "audio": "stories/zaay.mp3",
+    "sentenceAudio": [
+      "stories/zaay_1.mp3",
+      "stories/zaay_2.mp3",
+      "stories/zaay_3.mp3"
+    ]
+  },
+  {
+    "letter": "س",
+    "letterId": "seen",
+    "title": "سَمَكَةُ سَارَةَ",
+    "sentences": [
+      "سَارَةُ عِنْدَهَا سَمَكَةٌ.",
+      "سَمَكَةُ سَارَةَ تَسْبَحُ.",
+      "سَارَةُ سَعِيدَةٌ بِسَمَكَتِهَا."
+    ],
+    "audio": "stories/seen.mp3",
+    "sentenceAudio": [
+      "stories/seen_1.mp3",
+      "stories/seen_2.mp3",
+      "stories/seen_3.mp3"
+    ]
+  },
+  {
+    "letter": "ش",
+    "letterId": "sheen",
+    "title": "شَيْمَاءُ وَالشَّمْسُ",
+    "sentences": [
+      "شَيْمَاءُ تُحِبُّ الشَّمْسَ.",
+      "شَيْمَاءُ تَشْرَبُ عَصِيرَ مِشْمِشٍ.",
+      "شَيْمَاءُ تَشْكُرُ شَقِيقَهَا."
+    ],
+    "audio": "stories/sheen.mp3",
+    "sentenceAudio": [
+      "stories/sheen_1.mp3",
+      "stories/sheen_2.mp3",
+      "stories/sheen_3.mp3"
+    ]
+  },
+  {
+    "letter": "ص",
+    "letterId": "saad",
+    "title": "صُنْدُوقُ صَفَاءَ",
+    "sentences": [
+      "صَفَاءُ عِنْدَهَا صُنْدُوقٌ صَغِيرٌ.",
+      "فِي الصُّنْدُوقِ صُورَةٌ وَصَدَفَةٌ.",
+      "صَفَاءُ تُحِبُّ صُنْدُوقَهَا."
+    ],
+    "audio": "stories/saad.mp3",
+    "sentenceAudio": [
+      "stories/saad_1.mp3",
+      "stories/saad_2.mp3",
+      "stories/saad_3.mp3"
+    ]
+  },
+  {
+    "letter": "ض",
+    "letterId": "daad",
+    "title": "الضِّفْدَعُ الضَّاحِكُ",
+    "sentences": [
+      "ضِفْدَعٌ أَخْضَرُ فِي الْحَوْضِ.",
+      "ضَحِكَ الضِّفْدَعُ ضَحْكَةً كَبِيرَةً.",
+      "الضِّفْدَعُ ضَيْفُ الْحَوْضِ."
+    ],
+    "audio": "stories/daad.mp3",
+    "sentenceAudio": [
+      "stories/daad_1.mp3",
+      "stories/daad_2.mp3",
+      "stories/daad_3.mp3"
+    ]
+  },
+  {
+    "letter": "ط",
+    "letterId": "ttaa",
+    "title": "الطِّفْلُ الطَّيِّبُ",
+    "sentences": [
+      "طِفْلٌ طَيِّبٌ عِنْدَهُ طَبَقٌ.",
+      "فِي الطَّبَقِ طَمَاطِمُ.",
+      "الطِّفْلُ يَطْبُخُ الطَّمَاطِمَ."
+    ],
+    "audio": "stories/ttaa.mp3",
+    "sentenceAudio": [
+      "stories/ttaa_1.mp3",
+      "stories/ttaa_2.mp3",
+      "stories/ttaa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ظ",
+    "letterId": "zhaa",
+    "title": "الظَّبْيُ الظَّرِيفُ",
+    "sentences": [
+      "ظَبْيٌ ظَرِيفٌ فِي الظِّلِّ.",
+      "ظَهَرَ الظَّبْيُ ظُهْرًا.",
+      "الظَّبْيُ ظَمْآنُ."
+    ],
+    "audio": "stories/zhaa.mp3",
+    "sentenceAudio": [
+      "stories/zhaa_1.mp3",
+      "stories/zhaa_2.mp3",
+      "stories/zhaa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ع",
+    "letterId": "ain",
+    "title": "عُصْفُورُ عُمَرَ",
+    "sentences": [
+      "عُمَرُ عِنْدَهُ عُصْفُورٌ.",
+      "عُصْفُورُ عُمَرَ فِي الْعُشِّ.",
+      "عُمَرُ يُعْطِي عُصْفُورَهُ عِنَبًا."
+    ],
+    "audio": "stories/ain.mp3",
+    "sentenceAudio": [
+      "stories/ain_1.mp3",
+      "stories/ain_2.mp3",
+      "stories/ain_3.mp3"
+    ]
+  },
+  {
+    "letter": "غ",
+    "letterId": "ghain",
+    "title": "غَزَالُ غَادَةَ",
+    "sentences": [
+      "غَادَةُ عِنْدَهَا غَزَالٌ.",
+      "غَزَالُ غَادَةَ صَغِيرٌ.",
+      "غَادَةُ تُغَنِّي لِغَزَالِهَا."
+    ],
+    "audio": "stories/ghain.mp3",
+    "sentenceAudio": [
+      "stories/ghain_1.mp3",
+      "stories/ghain_2.mp3",
+      "stories/ghain_3.mp3"
+    ]
+  },
+  {
+    "letter": "ف",
+    "letterId": "faa",
+    "title": "فِيلُ فَرَحَ",
+    "sentences": [
+      "فَرَحُ عِنْدَهَا فِيلٌ.",
+      "فِيلُ فَرَحَ يَأْكُلُ فَرَاوِلَةً.",
+      "فَرَحُ وَفِيلُهَا فَرْحَانَانِ."
+    ],
+    "audio": "stories/faa.mp3",
+    "sentenceAudio": [
+      "stories/faa_1.mp3",
+      "stories/faa_2.mp3",
+      "stories/faa_3.mp3"
+    ]
+  },
+  {
+    "letter": "ق",
+    "letterId": "qaaf",
+    "title": "قِطُّ قَاسِمٍ",
+    "sentences": [
+      "قَاسِمٌ عِنْدَهُ قِطٌّ.",
+      "قِطُّ قَاسِمٍ يَقْفِزُ.",
+      "قَاسِمٌ وَقِطُّهُ صَدِيقَانِ."
+    ],
+    "audio": "stories/qaaf.mp3",
+    "sentenceAudio": [
+      "stories/qaaf_1.mp3",
+      "stories/qaaf_2.mp3",
+      "stories/qaaf_3.mp3"
+    ]
+  },
+  {
+    "letter": "ك",
+    "letterId": "kaaf",
+    "title": "كُرَةُ كَمَالٍ",
+    "sentences": [
+      "كَمَالٌ عِنْدَهُ كُرَةٌ.",
+      "كُرَةُ كَمَالٍ كَبِيرَةٌ.",
+      "كَمَالٌ يَلْعَبُ بِكُرَتِهِ كَثِيرًا."
+    ],
+    "audio": "stories/kaaf.mp3",
+    "sentenceAudio": [
+      "stories/kaaf_1.mp3",
+      "stories/kaaf_2.mp3",
+      "stories/kaaf_3.mp3"
+    ]
+  },
+  {
+    "letter": "ل",
+    "letterId": "laam",
+    "title": "لُعْبَةُ لَيْلَى",
+    "sentences": [
+      "لَيْلَى تَلْعَبُ بِلُعْبَةٍ.",
+      "لُعْبَةُ لَيْلَى لَوْنُهَا لَيْمُونِيٌّ.",
+      "لَيْلَى لَطِيفَةٌ."
+    ],
+    "audio": "stories/laam.mp3",
+    "sentenceAudio": [
+      "stories/laam_1.mp3",
+      "stories/laam_2.mp3",
+      "stories/laam_3.mp3"
+    ]
+  },
+  {
+    "letter": "م",
+    "letterId": "meem",
+    "title": "مَازِنٌ وَمَرْيَمُ",
+    "sentences": [
+      "مَازِنٌ مَعَ مَرْيَمَ.",
+      "مَسَكَ مَازِنٌ مَوْزَةً.",
+      "مَازِنٌ وَمَرْيَمُ مُبْتَسِمَانِ."
+    ],
+    "audio": "stories/meem.mp3",
+    "sentenceAudio": [
+      "stories/meem_1.mp3",
+      "stories/meem_2.mp3",
+      "stories/meem_3.mp3"
+    ]
+  },
+  {
+    "letter": "ن",
+    "letterId": "noon",
+    "title": "نَجْمَةُ نَادِرٍ",
+    "sentences": [
+      "نَادِرٌ نَظَرَ إِلَى نَجْمَةٍ.",
+      "نَجْمَةُ نَادِرٍ تَلْمَعُ.",
+      "نَامَ نَادِرٌ نَوْمًا هَادِئًا."
+    ],
+    "audio": "stories/noon.mp3",
+    "sentenceAudio": [
+      "stories/noon_1.mp3",
+      "stories/noon_2.mp3",
+      "stories/noon_3.mp3"
+    ]
+  },
+  {
+    "letter": "ه",
+    "letterId": "haa",
+    "title": "هِرَّةُ هَالَةَ",
+    "sentences": [
+      "هَالَةُ عِنْدَهَا هِرَّةٌ.",
+      "هِرَّةُ هَالَةَ هَادِئَةٌ.",
+      "هَالَةُ تَهْمِسُ لِهِرَّتِهَا."
+    ],
+    "audio": "stories/haa.mp3",
+    "sentenceAudio": [
+      "stories/haa_1.mp3",
+      "stories/haa_2.mp3",
+      "stories/haa_3.mp3"
+    ]
+  },
+  {
+    "letter": "و",
+    "letterId": "waaw",
+    "title": "وَرْدَةُ وَائِلٍ",
+    "sentences": [
+      "وَائِلٌ عِنْدَهُ وَرْدَةٌ.",
+      "وَرْدَةُ وَائِلٍ وَرْدِيَّةٌ.",
+      "وَائِلٌ وَوَالِدُهُ يَسْقِيَانِ الْوَرْدَ."
+    ],
+    "audio": "stories/waaw.mp3",
+    "sentenceAudio": [
+      "stories/waaw_1.mp3",
+      "stories/waaw_2.mp3",
+      "stories/waaw_3.mp3"
+    ]
+  },
+  {
+    "letter": "ي",
+    "letterId": "yaa",
+    "title": "يَمَامَةُ يُوسُفَ",
+    "sentences": [
+      "يُوسُفُ يَرَى يَمَامَةً.",
+      "يَمَامَةُ يُوسُفَ بَيْضَاءُ.",
+      "يُوسُفُ يُطْعِمُ يَمَامَتَهُ بِيَدِهِ."
+    ],
+    "audio": "stories/yaa.mp3",
+    "sentenceAudio": [
+      "stories/yaa_1.mp3",
+      "stories/yaa_2.mp3",
+      "stories/yaa_3.mp3"
+    ]
+  }
+]

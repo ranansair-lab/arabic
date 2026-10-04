@@ -1,0 +1,157 @@
+[
+  {
+    "id": "choose_letter",
+    "text": "اِخْتَرْ حَرْفًا لِتَتَعَلَّمَهُ",
+    "audio": "instructions/choose_letter.mp3"
+  },
+  {
+    "id": "listen_carefully",
+    "text": "اِسْتَمِعْ جَيِّدًا",
+    "audio": "instructions/listen_carefully.mp3"
+  },
+  {
+    "id": "which_sound",
+    "text": "أَيُّ صَوْتٍ سَمِعْتَ؟",
+    "audio": "instructions/which_sound.mp3"
+  },
+  {
+    "id": "hold_and_say",
+    "text": "اِضْغَطْ مُطَوَّلًا وَقُلْ:",
+    "audio": "instructions/hold_and_say.mp3"
+  },
+  {
+    "id": "well_done",
+    "text": "أَحْسَنْتَ!",
+    "audio": "instructions/well_done.mp3"
+  },
+  {
+    "id": "great",
+    "text": "رَائِعٌ!",
+    "audio": "instructions/great.mp3"
+  },
+  {
+    "id": "excellent",
+    "text": "مُمْتَازٌ!",
+    "audio": "instructions/excellent.mp3"
+  },
+  {
+    "id": "correct",
+    "text": "صَحِيحٌ!",
+    "audio": "instructions/correct.mp3"
+  },
+  {
+    "id": "try_again",
+    "text": "حَاوِلْ مَرَّةً أُخْرَى",
+    "audio": "instructions/try_again.mp3"
+  },
+  {
+    "id": "didnt_hear",
+    "text": "لَمْ أَسْمَعْكَ جَيِّدًا",
+    "audio": "instructions/didnt_hear.mp3"
+  },
+  {
+    "id": "say_short",
+    "text": "قُلْهُ قَصِيرًا",
+    "audio": "instructions/say_short.mp3"
+  },
+  {
+    "id": "say_long",
+    "text": "مُدَّ الصَّوْتَ",
+    "audio": "instructions/say_long.mp3"
+  },
+  {
+    "id": "letter_complete",
+    "text": "أَكْمَلْتَ الْحَرْفَ!",
+    "audio": "instructions/letter_complete.mp3"
+  },
+  {
+    "id": "choose_another",
+    "text": "اِخْتَرْ حَرْفًا آخَرَ",
+    "audio": "instructions/choose_another.mp3"
+  },
+  {
+    "id": "listen_word",
+    "text": "اِسْتَمِعْ إِلَى الْكَلِمَةِ",
+    "audio": "instructions/listen_word.mp3"
+  },
+  {
+    "id": "listen_again_try",
+    "text": "اِسْتَمِعْ مَرَّةً أُخْرَى وَحَاوِلْ",
+    "audio": "instructions/listen_again_try.mp3"
+  },
+  {
+    "id": "first_sound",
+    "text": "مَا الصَّوْتُ الْأَوَّلُ؟",
+    "audio": "instructions/first_sound.mp3"
+  },
+  {
+    "id": "middle_sound",
+    "text": "مَا الصَّوْتُ الْأَوْسَطُ؟",
+    "audio": "instructions/middle_sound.mp3"
+  },
+  {
+    "id": "last_sound",
+    "text": "مَا الصَّوْتُ الْأَخِيرُ؟",
+    "audio": "instructions/last_sound.mp3"
+  },
+  {
+    "id": "listen_story",
+    "text": "اِسْتَمِعْ إِلَى الْقِصَّةِ",
+    "audio": "instructions/listen_story.mp3"
+  },
+  {
+    "id": "most_letter",
+    "text": "مَا أَكْثَرُ حَرْفٍ سَمِعْتَ؟",
+    "audio": "instructions/most_letter.mp3"
+  },
+  {
+    "id": "listen_story_again",
+    "text": "اِسْتَمِعْ إِلَى الْقِصَّةِ مَرَّةً أُخْرَى",
+    "audio": "instructions/listen_story_again.mp3"
+  },
+  {
+    "id": "learn_more",
+    "text": "تَعَلَّمْ حُرُوفًا أَكْثَرَ أَوَّلًا",
+    "audio": "instructions/learn_more.mp3"
+  },
+  {
+    "id": "short_or_long",
+    "text": "قَصِيرٌ أَمْ طَوِيلٌ؟",
+    "audio": "instructions/short_or_long.mp3"
+  },
+  {
+    "id": "read_sentence",
+    "text": "اِقْرَأِ الْجُمْلَةَ",
+    "audio": "instructions/read_sentence.mp3"
+  },
+  {
+    "id": "which_picture",
+    "text": "أَيُّ صُورَةٍ تُنَاسِبُ الْجُمْلَةَ؟",
+    "audio": "instructions/which_picture.mp3"
+  },
+  {
+    "id": "listen_yourself",
+    "text": "اِسْتَمِعْ إِلَى صَوْتِكَ",
+    "audio": "instructions/listen_yourself.mp3"
+  },
+  {
+    "id": "learn_more_words",
+    "text": "تَدَرَّبْ عَلَى كَلِمَاتٍ أَكْثَرَ أَوَّلًا",
+    "audio": "instructions/learn_more_words.mp3"
+  },
+  {
+    "id": "hold_longer",
+    "text": "اِضْغَطْ مُطَوَّلًا",
+    "audio": "instructions/hold_longer.mp3"
+  },
+  {
+    "id": "service_unavailable",
+    "text": "خِدْمَةُ التَّقْيِيمِ غَيْرُ مُتَاحَةٍ الْآنَ",
+    "audio": "instructions/service_unavailable.mp3"
+  },
+  {
+    "id": "audio_unavailable",
+    "text": "الصَّوْتُ غَيْرُ مُتَاحٍ",
+    "audio": "instructions/audio_unavailable.mp3"
+  }
+]

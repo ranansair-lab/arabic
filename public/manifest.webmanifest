@@ -1,0 +1,12 @@
+{
+  "name": "أقرأ مع الحروف — Arabic Early Reading",
+  "short_name": "أقرأ",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e6f7ff",
+  "theme_color": "#8fd3ff",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

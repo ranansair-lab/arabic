@@ -1,0 +1,462 @@
+[
+  {
+    "id": "s01",
+    "text": "هُوَ كَتَبَ.",
+    "words": [
+      "هُوَ",
+      "كَتَبَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "ك",
+      "ت",
+      "ب"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "✍️",
+      "label": "writing"
+    },
+    "distractors": [
+      {
+        "emoji": "🍽️",
+        "label": "eating"
+      },
+      {
+        "emoji": "🏊",
+        "label": "swimming"
+      }
+    ],
+    "audio": "sentences/s01.mp3",
+    "gloss": "He wrote."
+  },
+  {
+    "id": "s02",
+    "text": "هُوَ أَكَلَ.",
+    "words": [
+      "هُوَ",
+      "أَكَلَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "أ",
+      "ك",
+      "ل"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🍽️",
+      "label": "eating"
+    },
+    "distractors": [
+      {
+        "emoji": "✍️",
+        "label": "writing"
+      },
+      {
+        "emoji": "😴",
+        "label": "sleeping"
+      }
+    ],
+    "audio": "sentences/s02.mp3",
+    "gloss": "He ate."
+  },
+  {
+    "id": "s03",
+    "text": "هُوَ شَرِبَ.",
+    "words": [
+      "هُوَ",
+      "شَرِبَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "ش",
+      "ر",
+      "ب"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🥤",
+      "label": "drinking"
+    },
+    "distractors": [
+      {
+        "emoji": "🎨",
+        "label": "drawing"
+      },
+      {
+        "emoji": "🏃",
+        "label": "running"
+      }
+    ],
+    "audio": "sentences/s03.mp3",
+    "gloss": "He drank."
+  },
+  {
+    "id": "s04",
+    "text": "هُوَ سَبَحَ.",
+    "words": [
+      "هُوَ",
+      "سَبَحَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "س",
+      "ب",
+      "ح"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🏊",
+      "label": "swimming"
+    },
+    "distractors": [
+      {
+        "emoji": "🍳",
+        "label": "cooking"
+      },
+      {
+        "emoji": "📚",
+        "label": "studying"
+      }
+    ],
+    "audio": "sentences/s04.mp3",
+    "gloss": "He swam."
+  },
+  {
+    "id": "s05",
+    "text": "هُوَ رَكَضَ.",
+    "words": [
+      "هُوَ",
+      "رَكَضَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "ر",
+      "ك",
+      "ض"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🏃",
+      "label": "running"
+    },
+    "distractors": [
+      {
+        "emoji": "🪑",
+        "label": "sitting"
+      },
+      {
+        "emoji": "🥤",
+        "label": "drinking"
+      }
+    ],
+    "audio": "sentences/s05.mp3",
+    "gloss": "He ran."
+  },
+  {
+    "id": "s06",
+    "text": "هُوَ ضَحِكَ.",
+    "words": [
+      "هُوَ",
+      "ضَحِكَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "ض",
+      "ح",
+      "ك"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "😄",
+      "label": "laughing"
+    },
+    "distractors": [
+      {
+        "emoji": "😢",
+        "label": "crying"
+      },
+      {
+        "emoji": "😠",
+        "label": "angry"
+      }
+    ],
+    "audio": "sentences/s06.mp3",
+    "gloss": "He laughed."
+  },
+  {
+    "id": "s07",
+    "text": "هُوَ قَفَزَ.",
+    "words": [
+      "هُوَ",
+      "قَفَزَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و",
+      "ق",
+      "ف",
+      "ز"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🦘",
+      "label": "jumping"
+    },
+    "distractors": [
+      {
+        "emoji": "😴",
+        "label": "sleeping"
+      },
+      {
+        "emoji": "🍽️",
+        "label": "eating"
+      }
+    ],
+    "audio": "sentences/s07.mp3",
+    "gloss": "He jumped."
+  },
+  {
+    "id": "s08",
+    "text": "أَكَلَ وَشَرِبَ.",
+    "words": [
+      "أَكَلَ",
+      "وَشَرِبَ"
+    ],
+    "requiredLetters": [
+      "أ",
+      "ك",
+      "ل",
+      "و",
+      "ش",
+      "ر",
+      "ب"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🍽️🥤",
+      "label": "eating and drinking"
+    },
+    "distractors": [
+      {
+        "emoji": "🏊",
+        "label": "swimming"
+      },
+      {
+        "emoji": "🎨",
+        "label": "drawing"
+      }
+    ],
+    "audio": "sentences/s08.mp3",
+    "gloss": "He ate and drank."
+  },
+  {
+    "id": "s09",
+    "text": "جَلَسَ وَكَتَبَ.",
+    "words": [
+      "جَلَسَ",
+      "وَكَتَبَ"
+    ],
+    "requiredLetters": [
+      "ج",
+      "ل",
+      "س",
+      "و",
+      "ك",
+      "ت",
+      "ب"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🪑✍️",
+      "label": "sitting and writing"
+    },
+    "distractors": [
+      {
+        "emoji": "🏃",
+        "label": "running"
+      },
+      {
+        "emoji": "🧼",
+        "label": "washing"
+      }
+    ],
+    "audio": "sentences/s09.mp3",
+    "gloss": "He sat down and wrote."
+  },
+  {
+    "id": "s10",
+    "text": "لَعِبَ وَضَحِكَ.",
+    "words": [
+      "لَعِبَ",
+      "وَضَحِكَ"
+    ],
+    "requiredLetters": [
+      "ل",
+      "ع",
+      "ب",
+      "و",
+      "ض",
+      "ح",
+      "ك"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "⚽😄",
+      "label": "playing and laughing"
+    },
+    "distractors": [
+      {
+        "emoji": "😢",
+        "label": "crying"
+      },
+      {
+        "emoji": "🍳",
+        "label": "cooking"
+      }
+    ],
+    "audio": "sentences/s10.mp3",
+    "gloss": "He played and laughed."
+  },
+  {
+    "id": "s11",
+    "text": "فَتَحَ وَدَخَلَ.",
+    "words": [
+      "فَتَحَ",
+      "وَدَخَلَ"
+    ],
+    "requiredLetters": [
+      "ف",
+      "ت",
+      "ح",
+      "و",
+      "د",
+      "خ",
+      "ل"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🚪🏠",
+      "label": "opening a door"
+    },
+    "distractors": [
+      {
+        "emoji": "🌱",
+        "label": "planting"
+      },
+      {
+        "emoji": "🥤",
+        "label": "drinking"
+      }
+    ],
+    "audio": "sentences/s11.mp3",
+    "gloss": "He opened and went in."
+  },
+  {
+    "id": "s12",
+    "text": "غَسَلَ وَأَكَلَ.",
+    "words": [
+      "غَسَلَ",
+      "وَأَكَلَ"
+    ],
+    "requiredLetters": [
+      "غ",
+      "س",
+      "ل",
+      "و",
+      "أ",
+      "ك"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🧼🍽️",
+      "label": "washing then eating"
+    },
+    "distractors": [
+      {
+        "emoji": "🏊",
+        "label": "swimming"
+      },
+      {
+        "emoji": "✍️",
+        "label": "writing"
+      }
+    ],
+    "audio": "sentences/s12.mp3",
+    "gloss": "He washed and ate."
+  },
+  {
+    "id": "s13",
+    "text": "طَبَخَ وَأَكَلَ.",
+    "words": [
+      "طَبَخَ",
+      "وَأَكَلَ"
+    ],
+    "requiredLetters": [
+      "ط",
+      "ب",
+      "خ",
+      "و",
+      "أ",
+      "ك",
+      "ل"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🍳🍽️",
+      "label": "cooking then eating"
+    },
+    "distractors": [
+      {
+        "emoji": "⚽",
+        "label": "playing"
+      },
+      {
+        "emoji": "📚",
+        "label": "studying"
+      }
+    ],
+    "audio": "sentences/s13.mp3",
+    "gloss": "He cooked and ate."
+  },
+  {
+    "id": "s14",
+    "text": "رَسَمَ وَفَرِحَ.",
+    "words": [
+      "رَسَمَ",
+      "وَفَرِحَ"
+    ],
+    "requiredLetters": [
+      "ر",
+      "س",
+      "م",
+      "و",
+      "ف",
+      "ح"
+    ],
+    "level": 1,
+    "picture": {
+      "emoji": "🎨😊",
+      "label": "drawing happily"
+    },
+    "distractors": [
+      {
+        "emoji": "😠",
+        "label": "angry"
+      },
+      {
+        "emoji": "🏃",
+        "label": "running"
+      }
+    ],
+    "audio": "sentences/s14.mp3",
+    "gloss": "He drew and was happy."
+  }
+]

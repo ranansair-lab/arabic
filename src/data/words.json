@@ -1,0 +1,1636 @@
+[
+  {
+    "id": "kataba",
+    "word": "كَتَبَ",
+    "segments": [
+      "كَ",
+      "تَ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "ك",
+      "ت",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "kataba",
+    "gloss": "wrote",
+    "emoji": "✍️",
+    "audio": "words/kataba.mp3"
+  },
+  {
+    "id": "dhahaba",
+    "word": "ذَهَبَ",
+    "segments": [
+      "ذَ",
+      "هَ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "ذ",
+      "ه",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "dhahaba",
+    "gloss": "went",
+    "emoji": "🚶",
+    "audio": "words/dhahaba.mp3"
+  },
+  {
+    "id": "jalasa",
+    "word": "جَلَسَ",
+    "segments": [
+      "جَ",
+      "لَ",
+      "سَ"
+    ],
+    "requiredLetters": [
+      "ج",
+      "ل",
+      "س"
+    ],
+    "level": 1,
+    "translit": "jalasa",
+    "gloss": "sat down",
+    "emoji": "🪑",
+    "audio": "words/jalasa.mp3"
+  },
+  {
+    "id": "rasama",
+    "word": "رَسَمَ",
+    "segments": [
+      "رَ",
+      "سَ",
+      "مَ"
+    ],
+    "requiredLetters": [
+      "ر",
+      "س",
+      "م"
+    ],
+    "level": 1,
+    "translit": "rasama",
+    "gloss": "drew",
+    "emoji": "🎨",
+    "audio": "words/rasama.mp3"
+  },
+  {
+    "id": "fataha",
+    "word": "فَتَحَ",
+    "segments": [
+      "فَ",
+      "تَ",
+      "حَ"
+    ],
+    "requiredLetters": [
+      "ف",
+      "ت",
+      "ح"
+    ],
+    "level": 1,
+    "translit": "fataḥa",
+    "gloss": "opened",
+    "emoji": "🚪",
+    "audio": "words/fataha.mp3"
+  },
+  {
+    "id": "akala",
+    "word": "أَكَلَ",
+    "segments": [
+      "أَ",
+      "كَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "أ",
+      "ك",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "ʔakala",
+    "gloss": "ate",
+    "emoji": "🍽️",
+    "audio": "words/akala.mp3"
+  },
+  {
+    "id": "shariba",
+    "word": "شَرِبَ",
+    "segments": [
+      "شَ",
+      "رِ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "ش",
+      "ر",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "shariba",
+    "gloss": "drank",
+    "emoji": "🥤",
+    "audio": "words/shariba.mp3"
+  },
+  {
+    "id": "laiba",
+    "word": "لَعِبَ",
+    "segments": [
+      "لَ",
+      "عِ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "ل",
+      "ع",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "laʿiba",
+    "gloss": "played",
+    "emoji": "⚽",
+    "audio": "words/laiba.mp3"
+  },
+  {
+    "id": "samia",
+    "word": "سَمِعَ",
+    "segments": [
+      "سَ",
+      "مِ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "س",
+      "م",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "samiʿa",
+    "gloss": "heard",
+    "emoji": "👂",
+    "audio": "words/samia.mp3"
+  },
+  {
+    "id": "fahima",
+    "word": "فَهِمَ",
+    "segments": [
+      "فَ",
+      "هِ",
+      "مَ"
+    ],
+    "requiredLetters": [
+      "ف",
+      "ه",
+      "م"
+    ],
+    "level": 1,
+    "translit": "fahima",
+    "gloss": "understood",
+    "emoji": "💡",
+    "audio": "words/fahima.mp3"
+  },
+  {
+    "id": "kabura",
+    "word": "كَبُرَ",
+    "segments": [
+      "كَ",
+      "بُ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ك",
+      "ب",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "kabura",
+    "gloss": "grew bigger",
+    "emoji": "📏",
+    "audio": "words/kabura.mp3"
+  },
+  {
+    "id": "hasuna",
+    "word": "حَسُنَ",
+    "segments": [
+      "حَ",
+      "سُ",
+      "نَ"
+    ],
+    "requiredLetters": [
+      "ح",
+      "س",
+      "ن"
+    ],
+    "level": 1,
+    "translit": "ḥasuna",
+    "gloss": "became good",
+    "emoji": "👍",
+    "audio": "words/hasuna.mp3"
+  },
+  {
+    "id": "akhadha",
+    "word": "أَخَذَ",
+    "segments": [
+      "أَ",
+      "خَ",
+      "ذَ"
+    ],
+    "requiredLetters": [
+      "أ",
+      "خ",
+      "ذ"
+    ],
+    "level": 1,
+    "translit": "ʔakhadha",
+    "gloss": "took",
+    "emoji": "🤲",
+    "audio": "words/akhadha.mp3"
+  },
+  {
+    "id": "nazala",
+    "word": "نَزَلَ",
+    "segments": [
+      "نَ",
+      "زَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "ن",
+      "ز",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "nazala",
+    "gloss": "went down",
+    "emoji": "⬇️",
+    "audio": "words/nazala.mp3"
+  },
+  {
+    "id": "dakhala",
+    "word": "دَخَلَ",
+    "segments": [
+      "دَ",
+      "خَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "د",
+      "خ",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "dakhala",
+    "gloss": "went in",
+    "emoji": "🏠",
+    "audio": "words/dakhala.mp3"
+  },
+  {
+    "id": "kharaja",
+    "word": "خَرَجَ",
+    "segments": [
+      "خَ",
+      "رَ",
+      "جَ"
+    ],
+    "requiredLetters": [
+      "خ",
+      "ر",
+      "ج"
+    ],
+    "level": 1,
+    "translit": "kharaja",
+    "gloss": "went out",
+    "emoji": "🚶",
+    "audio": "words/kharaja.mp3"
+  },
+  {
+    "id": "rajaa",
+    "word": "رَجَعَ",
+    "segments": [
+      "رَ",
+      "جَ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ر",
+      "ج",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "rajaʿa",
+    "gloss": "came back",
+    "emoji": "🔙",
+    "audio": "words/rajaa.mp3"
+  },
+  {
+    "id": "tabakha",
+    "word": "طَبَخَ",
+    "segments": [
+      "طَ",
+      "بَ",
+      "خَ"
+    ],
+    "requiredLetters": [
+      "ط",
+      "ب",
+      "خ"
+    ],
+    "level": 1,
+    "translit": "ṭabakha",
+    "gloss": "cooked",
+    "emoji": "🍳",
+    "audio": "words/tabakha.mp3"
+  },
+  {
+    "id": "ghasala",
+    "word": "غَسَلَ",
+    "segments": [
+      "غَ",
+      "سَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "غ",
+      "س",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "ghasala",
+    "gloss": "washed",
+    "emoji": "🧼",
+    "audio": "words/ghasala.mp3"
+  },
+  {
+    "id": "zaraa",
+    "word": "زَرَعَ",
+    "segments": [
+      "زَ",
+      "رَ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ز",
+      "ر",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "zaraʿa",
+    "gloss": "planted",
+    "emoji": "🌱",
+    "audio": "words/zaraa.mp3"
+  },
+  {
+    "id": "saida",
+    "word": "صَعِدَ",
+    "segments": [
+      "صَ",
+      "عِ",
+      "دَ"
+    ],
+    "requiredLetters": [
+      "ص",
+      "ع",
+      "د"
+    ],
+    "level": 1,
+    "translit": "ṣaʿida",
+    "gloss": "climbed up",
+    "emoji": "🧗",
+    "audio": "words/saida.mp3"
+  },
+  {
+    "id": "amila",
+    "word": "عَمِلَ",
+    "segments": [
+      "عَ",
+      "مِ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "ع",
+      "م",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "ʿamila",
+    "gloss": "worked",
+    "emoji": "🛠️",
+    "audio": "words/amila.mp3"
+  },
+  {
+    "id": "dahika",
+    "word": "ضَحِكَ",
+    "segments": [
+      "ضَ",
+      "حِ",
+      "كَ"
+    ],
+    "requiredLetters": [
+      "ض",
+      "ح",
+      "ك"
+    ],
+    "level": 1,
+    "translit": "ḍaḥika",
+    "gloss": "laughed",
+    "emoji": "😄",
+    "audio": "words/dahika.mp3"
+  },
+  {
+    "id": "hamala",
+    "word": "حَمَلَ",
+    "segments": [
+      "حَ",
+      "مَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "ح",
+      "م",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "ḥamala",
+    "gloss": "carried",
+    "emoji": "📦",
+    "audio": "words/hamala.mp3"
+  },
+  {
+    "id": "nazara",
+    "word": "نَظَرَ",
+    "segments": [
+      "نَ",
+      "ظَ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ن",
+      "ظ",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "naẓara",
+    "gloss": "looked",
+    "emoji": "👀",
+    "audio": "words/nazara.mp3"
+  },
+  {
+    "id": "waqafa",
+    "word": "وَقَفَ",
+    "segments": [
+      "وَ",
+      "قَ",
+      "فَ"
+    ],
+    "requiredLetters": [
+      "و",
+      "ق",
+      "ف"
+    ],
+    "level": 1,
+    "translit": "waqafa",
+    "gloss": "stood up",
+    "emoji": "🧍",
+    "audio": "words/waqafa.mp3"
+  },
+  {
+    "id": "qafaza",
+    "word": "قَفَزَ",
+    "segments": [
+      "قَ",
+      "فَ",
+      "زَ"
+    ],
+    "requiredLetters": [
+      "ق",
+      "ف",
+      "ز"
+    ],
+    "level": 1,
+    "translit": "qafaza",
+    "gloss": "jumped",
+    "emoji": "🦘",
+    "audio": "words/qafaza.mp3"
+  },
+  {
+    "id": "thabata",
+    "word": "ثَبَتَ",
+    "segments": [
+      "ثَ",
+      "بَ",
+      "تَ"
+    ],
+    "requiredLetters": [
+      "ث",
+      "ب",
+      "ت"
+    ],
+    "level": 1,
+    "translit": "thabata",
+    "gloss": "stayed still",
+    "emoji": "🗿",
+    "audio": "words/thabata.mp3"
+  },
+  {
+    "id": "zahara",
+    "word": "ظَهَرَ",
+    "segments": [
+      "ظَ",
+      "هَ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ظ",
+      "ه",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "ẓahara",
+    "gloss": "appeared",
+    "emoji": "🌞",
+    "audio": "words/zahara.mp3"
+  },
+  {
+    "id": "hafiza",
+    "word": "حَفِظَ",
+    "segments": [
+      "حَ",
+      "فِ",
+      "ظَ"
+    ],
+    "requiredLetters": [
+      "ح",
+      "ف",
+      "ظ"
+    ],
+    "level": 1,
+    "translit": "ḥafiẓa",
+    "gloss": "memorised",
+    "emoji": "🧠",
+    "audio": "words/hafiza.mp3"
+  },
+  {
+    "id": "kasara",
+    "word": "كَسَرَ",
+    "segments": [
+      "كَ",
+      "سَ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ك",
+      "س",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "kasara",
+    "gloss": "broke",
+    "emoji": "💔",
+    "audio": "words/kasara.mp3"
+  },
+  {
+    "id": "sabaha",
+    "word": "سَبَحَ",
+    "segments": [
+      "سَ",
+      "بَ",
+      "حَ"
+    ],
+    "requiredLetters": [
+      "س",
+      "ب",
+      "ح"
+    ],
+    "level": 1,
+    "translit": "sabaḥa",
+    "gloss": "swam",
+    "emoji": "🏊",
+    "audio": "words/sabaha.mp3"
+  },
+  {
+    "id": "rakada",
+    "word": "رَكَضَ",
+    "segments": [
+      "رَ",
+      "كَ",
+      "ضَ"
+    ],
+    "requiredLetters": [
+      "ر",
+      "ك",
+      "ض"
+    ],
+    "level": 1,
+    "translit": "rakaḍa",
+    "gloss": "ran",
+    "emoji": "🏃",
+    "audio": "words/rakada.mp3"
+  },
+  {
+    "id": "masaka",
+    "word": "مَسَكَ",
+    "segments": [
+      "مَ",
+      "سَ",
+      "كَ"
+    ],
+    "requiredLetters": [
+      "م",
+      "س",
+      "ك"
+    ],
+    "level": 1,
+    "translit": "masaka",
+    "gloss": "held",
+    "emoji": "✊",
+    "audio": "words/masaka.mp3"
+  },
+  {
+    "id": "fariha",
+    "word": "فَرِحَ",
+    "segments": [
+      "فَ",
+      "رِ",
+      "حَ"
+    ],
+    "requiredLetters": [
+      "ف",
+      "ر",
+      "ح"
+    ],
+    "level": 1,
+    "translit": "fariḥa",
+    "gloss": "was happy",
+    "emoji": "😊",
+    "audio": "words/fariha.mp3"
+  },
+  {
+    "id": "hazina",
+    "word": "حَزِنَ",
+    "segments": [
+      "حَ",
+      "زِ",
+      "نَ"
+    ],
+    "requiredLetters": [
+      "ح",
+      "ز",
+      "ن"
+    ],
+    "level": 1,
+    "translit": "ḥazina",
+    "gloss": "was sad",
+    "emoji": "😢",
+    "audio": "words/hazina.mp3"
+  },
+  {
+    "id": "shakara",
+    "word": "شَكَرَ",
+    "segments": [
+      "شَ",
+      "كَ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ش",
+      "ك",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "shakara",
+    "gloss": "thanked",
+    "emoji": "🙏",
+    "audio": "words/shakara.mp3"
+  },
+  {
+    "id": "najaha",
+    "word": "نَجَحَ",
+    "segments": [
+      "نَ",
+      "جَ",
+      "حَ"
+    ],
+    "requiredLetters": [
+      "ن",
+      "ج",
+      "ح"
+    ],
+    "level": 1,
+    "translit": "najaḥa",
+    "gloss": "succeeded",
+    "emoji": "🏆",
+    "audio": "words/najaha.mp3"
+  },
+  {
+    "id": "talaba",
+    "word": "طَلَبَ",
+    "segments": [
+      "طَ",
+      "لَ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "ط",
+      "ل",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "ṭalaba",
+    "gloss": "asked for",
+    "emoji": "🙋",
+    "audio": "words/talaba.mp3"
+  },
+  {
+    "id": "ghadiba",
+    "word": "غَضِبَ",
+    "segments": [
+      "غَ",
+      "ضِ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "غ",
+      "ض",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "ghaḍiba",
+    "gloss": "got angry",
+    "emoji": "😠",
+    "audio": "words/ghadiba.mp3"
+  },
+  {
+    "id": "sabara",
+    "word": "صَبَرَ",
+    "segments": [
+      "صَ",
+      "بَ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ص",
+      "ب",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "ṣabara",
+    "gloss": "was patient",
+    "emoji": "⏳",
+    "audio": "words/sabara.mp3"
+  },
+  {
+    "id": "saala",
+    "word": "سَأَلَ",
+    "segments": [
+      "سَ",
+      "أَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "س",
+      "أ",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "saʔala",
+    "gloss": "asked",
+    "emoji": "❓",
+    "audio": "words/saala.mp3"
+  },
+  {
+    "id": "wasala",
+    "word": "وَصَلَ",
+    "segments": [
+      "وَ",
+      "صَ",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "و",
+      "ص",
+      "ل"
+    ],
+    "level": 1,
+    "translit": "waṣala",
+    "gloss": "arrived",
+    "emoji": "📍",
+    "audio": "words/wasala.mp3"
+  },
+  {
+    "id": "jamaa",
+    "word": "جَمَعَ",
+    "segments": [
+      "جَ",
+      "مَ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ج",
+      "م",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "jamaʿa",
+    "gloss": "collected",
+    "emoji": "🧺",
+    "audio": "words/jamaa.mp3"
+  },
+  {
+    "id": "qataa",
+    "word": "قَطَعَ",
+    "segments": [
+      "قَ",
+      "طَ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ق",
+      "ط",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "qaṭaʿa",
+    "gloss": "cut",
+    "emoji": "✂️",
+    "audio": "words/qataa.mp3"
+  },
+  {
+    "id": "bahatha",
+    "word": "بَحَثَ",
+    "segments": [
+      "بَ",
+      "حَ",
+      "ثَ"
+    ],
+    "requiredLetters": [
+      "ب",
+      "ح",
+      "ث"
+    ],
+    "level": 1,
+    "translit": "baḥatha",
+    "gloss": "searched",
+    "emoji": "🔍",
+    "audio": "words/bahatha.mp3"
+  },
+  {
+    "id": "hadatha",
+    "word": "حَدَثَ",
+    "segments": [
+      "حَ",
+      "دَ",
+      "ثَ"
+    ],
+    "requiredLetters": [
+      "ح",
+      "د",
+      "ث"
+    ],
+    "level": 1,
+    "translit": "ḥadatha",
+    "gloss": "happened",
+    "emoji": "✨",
+    "audio": "words/hadatha.mp3"
+  },
+  {
+    "id": "raqasa",
+    "word": "رَقَصَ",
+    "segments": [
+      "رَ",
+      "قَ",
+      "صَ"
+    ],
+    "requiredLetters": [
+      "ر",
+      "ق",
+      "ص"
+    ],
+    "level": 1,
+    "translit": "raqaṣa",
+    "gloss": "danced",
+    "emoji": "💃",
+    "audio": "words/raqasa.mp3"
+  },
+  {
+    "id": "nafakha",
+    "word": "نَفَخَ",
+    "segments": [
+      "نَ",
+      "فَ",
+      "خَ"
+    ],
+    "requiredLetters": [
+      "ن",
+      "ف",
+      "خ"
+    ],
+    "level": 1,
+    "translit": "nafakha",
+    "gloss": "blew",
+    "emoji": "🌬️",
+    "audio": "words/nafakha.mp3"
+  },
+  {
+    "id": "lamasa",
+    "word": "لَمَسَ",
+    "segments": [
+      "لَ",
+      "مَ",
+      "سَ"
+    ],
+    "requiredLetters": [
+      "ل",
+      "م",
+      "س"
+    ],
+    "level": 1,
+    "translit": "lamasa",
+    "gloss": "touched",
+    "emoji": "👆",
+    "audio": "words/lamasa.mp3"
+  },
+  {
+    "id": "darasa",
+    "word": "دَرَسَ",
+    "segments": [
+      "دَ",
+      "رَ",
+      "سَ"
+    ],
+    "requiredLetters": [
+      "د",
+      "ر",
+      "س"
+    ],
+    "level": 1,
+    "translit": "darasa",
+    "gloss": "studied",
+    "emoji": "📚",
+    "audio": "words/darasa.mp3"
+  },
+  {
+    "id": "hadara",
+    "word": "حَضَرَ",
+    "segments": [
+      "حَ",
+      "ضَ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ح",
+      "ض",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "ḥaḍara",
+    "gloss": "came / attended",
+    "emoji": "🙋",
+    "audio": "words/hadara.mp3"
+  },
+  {
+    "id": "taiba",
+    "word": "تَعِبَ",
+    "segments": [
+      "تَ",
+      "عِ",
+      "بَ"
+    ],
+    "requiredLetters": [
+      "ت",
+      "ع",
+      "ب"
+    ],
+    "level": 1,
+    "translit": "taʿiba",
+    "gloss": "got tired",
+    "emoji": "🥱",
+    "audio": "words/taiba.mp3"
+  },
+  {
+    "id": "shabia",
+    "word": "شَبِعَ",
+    "segments": [
+      "شَ",
+      "بِ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ش",
+      "ب",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "shabiʿa",
+    "gloss": "was full",
+    "emoji": "😋",
+    "audio": "words/shabia.mp3"
+  },
+  {
+    "id": "atisha",
+    "word": "عَطِشَ",
+    "segments": [
+      "عَ",
+      "طِ",
+      "شَ"
+    ],
+    "requiredLetters": [
+      "ع",
+      "ط",
+      "ش"
+    ],
+    "level": 1,
+    "translit": "ʿaṭisha",
+    "gloss": "was thirsty",
+    "emoji": "💧",
+    "audio": "words/atisha.mp3"
+  },
+  {
+    "id": "saghura",
+    "word": "صَغُرَ",
+    "segments": [
+      "صَ",
+      "غُ",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ص",
+      "غ",
+      "ر"
+    ],
+    "level": 1,
+    "translit": "ṣaghura",
+    "gloss": "became small",
+    "emoji": "🤏",
+    "audio": "words/saghura.mp3"
+  },
+  {
+    "id": "karuma",
+    "word": "كَرُمَ",
+    "segments": [
+      "كَ",
+      "رُ",
+      "مَ"
+    ],
+    "requiredLetters": [
+      "ك",
+      "ر",
+      "م"
+    ],
+    "level": 1,
+    "translit": "karuma",
+    "gloss": "was generous",
+    "emoji": "🎁",
+    "audio": "words/karuma.mp3"
+  },
+  {
+    "id": "yabisa",
+    "word": "يَبِسَ",
+    "segments": [
+      "يَ",
+      "بِ",
+      "سَ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ب",
+      "س"
+    ],
+    "level": 1,
+    "translit": "yabisa",
+    "gloss": "dried up",
+    "emoji": "🍂",
+    "audio": "words/yabisa.mp3"
+  },
+  {
+    "id": "wajada",
+    "word": "وَجَدَ",
+    "segments": [
+      "وَ",
+      "جَ",
+      "دَ"
+    ],
+    "requiredLetters": [
+      "و",
+      "ج",
+      "د"
+    ],
+    "level": 1,
+    "translit": "wajada",
+    "gloss": "found",
+    "emoji": "🔎",
+    "audio": "words/wajada.mp3"
+  },
+  {
+    "id": "waada",
+    "word": "وَعَدَ",
+    "segments": [
+      "وَ",
+      "عَ",
+      "دَ"
+    ],
+    "requiredLetters": [
+      "و",
+      "ع",
+      "د"
+    ],
+    "level": 1,
+    "translit": "waʿada",
+    "gloss": "promised",
+    "emoji": "🤝",
+    "audio": "words/waada.mp3"
+  },
+  {
+    "id": "balagha",
+    "word": "بَلَغَ",
+    "segments": [
+      "بَ",
+      "لَ",
+      "غَ"
+    ],
+    "requiredLetters": [
+      "ب",
+      "ل",
+      "غ"
+    ],
+    "level": 1,
+    "translit": "balagha",
+    "gloss": "reached",
+    "emoji": "🏁",
+    "audio": "words/balagha.mp3"
+  },
+  {
+    "id": "gharasa",
+    "word": "غَرَسَ",
+    "segments": [
+      "غَ",
+      "رَ",
+      "سَ"
+    ],
+    "requiredLetters": [
+      "غ",
+      "ر",
+      "س"
+    ],
+    "level": 1,
+    "translit": "gharasa",
+    "gloss": "planted (a tree)",
+    "emoji": "🌳",
+    "audio": "words/gharasa.mp3"
+  },
+  {
+    "id": "huwa",
+    "word": "هُوَ",
+    "segments": [
+      "هُ",
+      "وَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "و"
+    ],
+    "level": 1,
+    "translit": "huwa",
+    "gloss": "he",
+    "emoji": "👦",
+    "audio": "words/huwa.mp3"
+  },
+  {
+    "id": "hiya",
+    "word": "هِيَ",
+    "segments": [
+      "هِ",
+      "يَ"
+    ],
+    "requiredLetters": [
+      "ه",
+      "ي"
+    ],
+    "level": 1,
+    "translit": "hiya",
+    "gloss": "she",
+    "emoji": "👧",
+    "audio": "words/hiya.mp3"
+  },
+  {
+    "id": "maa",
+    "word": "مَعَ",
+    "segments": [
+      "مَ",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "م",
+      "ع"
+    ],
+    "level": 1,
+    "translit": "maʿa",
+    "gloss": "with",
+    "emoji": "🤝",
+    "audio": "words/maa.mp3"
+  },
+  {
+    "id": "laka",
+    "word": "لَكَ",
+    "segments": [
+      "لَ",
+      "كَ"
+    ],
+    "requiredLetters": [
+      "ل",
+      "ك"
+    ],
+    "level": 1,
+    "translit": "laka",
+    "gloss": "for you",
+    "emoji": "🎁",
+    "audio": "words/laka.mp3"
+  },
+  {
+    "id": "maamaa",
+    "word": "مَامَا",
+    "segments": [
+      "مَا",
+      "مَا"
+    ],
+    "requiredLetters": [
+      "م"
+    ],
+    "level": 2,
+    "translit": "maamaa",
+    "gloss": "mum",
+    "emoji": "👩",
+    "audio": "words/maamaa.mp3"
+  },
+  {
+    "id": "baabaa",
+    "word": "بَابَا",
+    "segments": [
+      "بَا",
+      "بَا"
+    ],
+    "requiredLetters": [
+      "ب"
+    ],
+    "level": 2,
+    "translit": "baabaa",
+    "gloss": "dad",
+    "emoji": "👨",
+    "audio": "words/baabaa.mp3"
+  },
+  {
+    "id": "naama",
+    "word": "نَامَ",
+    "segments": [
+      "نَا",
+      "مَ"
+    ],
+    "requiredLetters": [
+      "ن",
+      "م"
+    ],
+    "level": 2,
+    "translit": "naama",
+    "gloss": "slept",
+    "emoji": "😴",
+    "audio": "words/naama.mp3"
+  },
+  {
+    "id": "qaama",
+    "word": "قَامَ",
+    "segments": [
+      "قَا",
+      "مَ"
+    ],
+    "requiredLetters": [
+      "ق",
+      "م"
+    ],
+    "level": 2,
+    "translit": "qaama",
+    "gloss": "stood up",
+    "emoji": "🧍",
+    "audio": "words/qaama.mp3"
+  },
+  {
+    "id": "taara",
+    "word": "طَارَ",
+    "segments": [
+      "طَا",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ط",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "ṭaara",
+    "gloss": "flew",
+    "emoji": "🐦",
+    "audio": "words/taara.mp3"
+  },
+  {
+    "id": "zaara",
+    "word": "زَارَ",
+    "segments": [
+      "زَا",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "ز",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "zaara",
+    "gloss": "visited",
+    "emoji": "🏡",
+    "audio": "words/zaara.mp3"
+  },
+  {
+    "id": "qaala",
+    "word": "قَالَ",
+    "segments": [
+      "قَا",
+      "لَ"
+    ],
+    "requiredLetters": [
+      "ق",
+      "ل"
+    ],
+    "level": 2,
+    "translit": "qaala",
+    "gloss": "said",
+    "emoji": "💬",
+    "audio": "words/qaala.mp3"
+  },
+  {
+    "id": "saama",
+    "word": "صَامَ",
+    "segments": [
+      "صَا",
+      "مَ"
+    ],
+    "requiredLetters": [
+      "ص",
+      "م"
+    ],
+    "level": 2,
+    "translit": "ṣaama",
+    "gloss": "fasted",
+    "emoji": "🌙",
+    "audio": "words/saama.mp3"
+  },
+  {
+    "id": "baaa",
+    "word": "بَاعَ",
+    "segments": [
+      "بَا",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ب",
+      "ع"
+    ],
+    "level": 2,
+    "translit": "baaʿa",
+    "gloss": "sold",
+    "emoji": "🛒",
+    "audio": "words/baaa.mp3"
+  },
+  {
+    "id": "saara",
+    "word": "سَارَ",
+    "segments": [
+      "سَا",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "س",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "saara",
+    "gloss": "walked",
+    "emoji": "🚶",
+    "audio": "words/saara.mp3"
+  },
+  {
+    "id": "jaaa",
+    "word": "جَاعَ",
+    "segments": [
+      "جَا",
+      "عَ"
+    ],
+    "requiredLetters": [
+      "ج",
+      "ع"
+    ],
+    "level": 2,
+    "translit": "jaaʿa",
+    "gloss": "got hungry",
+    "emoji": "😋",
+    "audio": "words/jaaa.mp3"
+  },
+  {
+    "id": "kaana",
+    "word": "كَانَ",
+    "segments": [
+      "كَا",
+      "نَ"
+    ],
+    "requiredLetters": [
+      "ك",
+      "ن"
+    ],
+    "level": 2,
+    "translit": "kaana",
+    "gloss": "was",
+    "emoji": "⏳",
+    "audio": "words/kaana.mp3"
+  },
+  {
+    "id": "aada",
+    "word": "عَادَ",
+    "segments": [
+      "عَا",
+      "دَ"
+    ],
+    "requiredLetters": [
+      "ع",
+      "د"
+    ],
+    "level": 2,
+    "translit": "ʿaada",
+    "gloss": "returned",
+    "emoji": "🔙",
+    "audio": "words/aada.mp3"
+  },
+  {
+    "id": "daara",
+    "word": "دَارَ",
+    "segments": [
+      "دَا",
+      "رَ"
+    ],
+    "requiredLetters": [
+      "د",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "daara",
+    "gloss": "turned around",
+    "emoji": "🔄",
+    "audio": "words/daara.mp3"
+  },
+  {
+    "id": "yatiiru",
+    "word": "يَطِيرُ",
+    "segments": [
+      "يَ",
+      "طِي",
+      "رُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ط",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "yaṭiiru",
+    "gloss": "flies",
+    "emoji": "🦋",
+    "audio": "words/yatiiru.mp3"
+  },
+  {
+    "id": "yasiiru",
+    "word": "يَسِيرُ",
+    "segments": [
+      "يَ",
+      "سِي",
+      "رُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "س",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "yasiiru",
+    "gloss": "walks",
+    "emoji": "🚶",
+    "audio": "words/yasiiru.mp3"
+  },
+  {
+    "id": "yabiiu",
+    "word": "يَبِيعُ",
+    "segments": [
+      "يَ",
+      "بِي",
+      "عُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ب",
+      "ع"
+    ],
+    "level": 2,
+    "translit": "yabiiʿu",
+    "gloss": "sells",
+    "emoji": "🛒",
+    "audio": "words/yabiiu.mp3"
+  },
+  {
+    "id": "yaquulu",
+    "word": "يَقُولُ",
+    "segments": [
+      "يَ",
+      "قُو",
+      "لُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ق",
+      "ل"
+    ],
+    "level": 2,
+    "translit": "yaquulu",
+    "gloss": "says",
+    "emoji": "💬",
+    "audio": "words/yaquulu.mp3"
+  },
+  {
+    "id": "yaquumu",
+    "word": "يَقُومُ",
+    "segments": [
+      "يَ",
+      "قُو",
+      "مُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ق",
+      "م"
+    ],
+    "level": 2,
+    "translit": "yaquumu",
+    "gloss": "stands up",
+    "emoji": "🧍",
+    "audio": "words/yaquumu.mp3"
+  },
+  {
+    "id": "yasuumu",
+    "word": "يَصُومُ",
+    "segments": [
+      "يَ",
+      "صُو",
+      "مُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ص",
+      "م"
+    ],
+    "level": 2,
+    "translit": "yaṣuumu",
+    "gloss": "fasts",
+    "emoji": "🌙",
+    "audio": "words/yasuumu.mp3"
+  },
+  {
+    "id": "yazuuru",
+    "word": "يَزُورُ",
+    "segments": [
+      "يَ",
+      "زُو",
+      "رُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "ز",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "yazuuru",
+    "gloss": "visits",
+    "emoji": "🏡",
+    "audio": "words/yazuuru.mp3"
+  },
+  {
+    "id": "yaduuru",
+    "word": "يَدُورُ",
+    "segments": [
+      "يَ",
+      "دُو",
+      "رُ"
+    ],
+    "requiredLetters": [
+      "ي",
+      "د",
+      "ر"
+    ],
+    "level": 2,
+    "translit": "yaduuru",
+    "gloss": "turns around",
+    "emoji": "🔄",
+    "audio": "words/yaduuru.mp3"
+  }
+]

@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "alif",
+    "char": "أ",
+    "name": "أَلِف",
+    "consonant": "ʔ",
+    "forms": [
+      {
+        "id": "alif_a",
+        "letterId": "alif",
+        "text": "أَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ʔa",
+        "audio": "phonemes/alif_a.mp3"
+      },
+      {
+        "id": "alif_i",
+        "letterId": "alif",
+        "text": "إِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ʔi",
+        "audio": "phonemes/alif_i.mp3"
+      },
+      {
+        "id": "alif_u",
+        "letterId": "alif",
+        "text": "أُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ʔu",
+        "audio": "phonemes/alif_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "alif_aa",
+        "letterId": "alif",
+        "text": "آ",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ʔaa",
+        "audio": "phonemes/alif_aa.mp3"
+      },
+      {
+        "id": "alif_ii",
+        "letterId": "alif",
+        "text": "إِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ʔii",
+        "audio": "phonemes/alif_ii.mp3"
+      },
+      {
+        "id": "alif_uu",
+        "letterId": "alif",
+        "text": "أُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ʔuu",
+        "audio": "phonemes/alif_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "baa",
+    "char": "ب",
+    "name": "بَاء",
+    "consonant": "b",
+    "forms": [
+      {
+        "id": "baa_a",
+        "letterId": "baa",
+        "text": "بَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ba",
+        "audio": "phonemes/baa_a.mp3"
+      },
+      {
+        "id": "baa_i",
+        "letterId": "baa",
+        "text": "بِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "bi",
+        "audio": "phonemes/baa_i.mp3"
+      },
+      {
+        "id": "baa_u",
+        "letterId": "baa",
+        "text": "بُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "bu",
+        "audio": "phonemes/baa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "baa_aa",
+        "letterId": "baa",
+        "text": "بَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "baa",
+        "audio": "phonemes/baa_aa.mp3"
+      },
+      {
+        "id": "baa_ii",
+        "letterId": "baa",
+        "text": "بِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "bii",
+        "audio": "phonemes/baa_ii.mp3"
+      },
+      {
+        "id": "baa_uu",
+        "letterId": "baa",
+        "text": "بُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "buu",
+        "audio": "phonemes/baa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "taa",
+    "char": "ت",
+    "name": "تَاء",
+    "consonant": "t",
+    "forms": [
+      {
+        "id": "taa_a",
+        "letterId": "taa",
+        "text": "تَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ta",
+        "audio": "phonemes/taa_a.mp3"
+      },
+      {
+        "id": "taa_i",
+        "letterId": "taa",
+        "text": "تِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ti",
+        "audio": "phonemes/taa_i.mp3"
+      },
+      {
+        "id": "taa_u",
+        "letterId": "taa",
+        "text": "تُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "tu",
+        "audio": "phonemes/taa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "taa_aa",
+        "letterId": "taa",
+        "text": "تَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "taa",
+        "audio": "phonemes/taa_aa.mp3"
+      },
+      {
+        "id": "taa_ii",
+        "letterId": "taa",
+        "text": "تِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "tii",
+        "audio": "phonemes/taa_ii.mp3"
+      },
+      {
+        "id": "taa_uu",
+        "letterId": "taa",
+        "text": "تُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "tuu",
+        "audio": "phonemes/taa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "thaa",
+    "char": "ث",
+    "name": "ثَاء",
+    "consonant": "th",
+    "forms": [
+      {
+        "id": "thaa_a",
+        "letterId": "thaa",
+        "text": "ثَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "tha",
+        "audio": "phonemes/thaa_a.mp3"
+      },
+      {
+        "id": "thaa_i",
+        "letterId": "thaa",
+        "text": "ثِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "thi",
+        "audio": "phonemes/thaa_i.mp3"
+      },
+      {
+        "id": "thaa_u",
+        "letterId": "thaa",
+        "text": "ثُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "thu",
+        "audio": "phonemes/thaa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "thaa_aa",
+        "letterId": "thaa",
+        "text": "ثَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "thaa",
+        "audio": "phonemes/thaa_aa.mp3"
+      },
+      {
+        "id": "thaa_ii",
+        "letterId": "thaa",
+        "text": "ثِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "thii",
+        "audio": "phonemes/thaa_ii.mp3"
+      },
+      {
+        "id": "thaa_uu",
+        "letterId": "thaa",
+        "text": "ثُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "thuu",
+        "audio": "phonemes/thaa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "jeem",
+    "char": "ج",
+    "name": "جِيم",
+    "consonant": "j",
+    "forms": [
+      {
+        "id": "jeem_a",
+        "letterId": "jeem",
+        "text": "جَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ja",
+        "audio": "phonemes/jeem_a.mp3"
+      },
+      {
+        "id": "jeem_i",
+        "letterId": "jeem",
+        "text": "جِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ji",
+        "audio": "phonemes/jeem_i.mp3"
+      },
+      {
+        "id": "jeem_u",
+        "letterId": "jeem",
+        "text": "جُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ju",
+        "audio": "phonemes/jeem_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "jeem_aa",
+        "letterId": "jeem",
+        "text": "جَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "jaa",
+        "audio": "phonemes/jeem_aa.mp3"
+      },
+      {
+        "id": "jeem_ii",
+        "letterId": "jeem",
+        "text": "جِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "jii",
+        "audio": "phonemes/jeem_ii.mp3"
+      },
+      {
+        "id": "jeem_uu",
+        "letterId": "jeem",
+        "text": "جُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "juu",
+        "audio": "phonemes/jeem_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "hhaa",
+    "char": "ح",
+    "name": "حَاء",
+    "consonant": "ḥ",
+    "forms": [
+      {
+        "id": "hhaa_a",
+        "letterId": "hhaa",
+        "text": "حَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ḥa",
+        "audio": "phonemes/hhaa_a.mp3"
+      },
+      {
+        "id": "hhaa_i",
+        "letterId": "hhaa",
+        "text": "حِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ḥi",
+        "audio": "phonemes/hhaa_i.mp3"
+      },
+      {
+        "id": "hhaa_u",
+        "letterId": "hhaa",
+        "text": "حُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ḥu",
+        "audio": "phonemes/hhaa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "hhaa_aa",
+        "letterId": "hhaa",
+        "text": "حَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ḥaa",
+        "audio": "phonemes/hhaa_aa.mp3"
+      },
+      {
+        "id": "hhaa_ii",
+        "letterId": "hhaa",
+        "text": "حِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ḥii",
+        "audio": "phonemes/hhaa_ii.mp3"
+      },
+      {
+        "id": "hhaa_uu",
+        "letterId": "hhaa",
+        "text": "حُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ḥuu",
+        "audio": "phonemes/hhaa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "khaa",
+    "char": "خ",
+    "name": "خَاء",
+    "consonant": "kh",
+    "forms": [
+      {
+        "id": "khaa_a",
+        "letterId": "khaa",
+        "text": "خَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "kha",
+        "audio": "phonemes/khaa_a.mp3"
+      },
+      {
+        "id": "khaa_i",
+        "letterId": "khaa",
+        "text": "خِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "khi",
+        "audio": "phonemes/khaa_i.mp3"
+      },
+      {
+        "id": "khaa_u",
+        "letterId": "khaa",
+        "text": "خُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "khu",
+        "audio": "phonemes/khaa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "khaa_aa",
+        "letterId": "khaa",
+        "text": "خَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "khaa",
+        "audio": "phonemes/khaa_aa.mp3"
+      },
+      {
+        "id": "khaa_ii",
+        "letterId": "khaa",
+        "text": "خِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "khii",
+        "audio": "phonemes/khaa_ii.mp3"
+      },
+      {
+        "id": "khaa_uu",
+        "letterId": "khaa",
+        "text": "خُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "khuu",
+        "audio": "phonemes/khaa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "daal",
+    "char": "د",
+    "name": "دَال",
+    "consonant": "d",
+    "forms": [
+      {
+        "id": "daal_a",
+        "letterId": "daal",
+        "text": "دَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "da",
+        "audio": "phonemes/daal_a.mp3"
+      },
+      {
+        "id": "daal_i",
+        "letterId": "daal",
+        "text": "دِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "di",
+        "audio": "phonemes/daal_i.mp3"
+      },
+      {
+        "id": "daal_u",
+        "letterId": "daal",
+        "text": "دُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "du",
+        "audio": "phonemes/daal_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "daal_aa",
+        "letterId": "daal",
+        "text": "دَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "daa",
+        "audio": "phonemes/daal_aa.mp3"
+      },
+      {
+        "id": "daal_ii",
+        "letterId": "daal",
+        "text": "دِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "dii",
+        "audio": "phonemes/daal_ii.mp3"
+      },
+      {
+        "id": "daal_uu",
+        "letterId": "daal",
+        "text": "دُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "duu",
+        "audio": "phonemes/daal_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dhaal",
+    "char": "ذ",
+    "name": "ذَال",
+    "consonant": "dh",
+    "forms": [
+      {
+        "id": "dhaal_a",
+        "letterId": "dhaal",
+        "text": "ذَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "dha",
+        "audio": "phonemes/dhaal_a.mp3"
+      },
+      {
+        "id": "dhaal_i",
+        "letterId": "dhaal",
+        "text": "ذِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "dhi",
+        "audio": "phonemes/dhaal_i.mp3"
+      },
+      {
+        "id": "dhaal_u",
+        "letterId": "dhaal",
+        "text": "ذُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "dhu",
+        "audio": "phonemes/dhaal_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "dhaal_aa",
+        "letterId": "dhaal",
+        "text": "ذَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "dhaa",
+        "audio": "phonemes/dhaal_aa.mp3"
+      },
+      {
+        "id": "dhaal_ii",
+        "letterId": "dhaal",
+        "text": "ذِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "dhii",
+        "audio": "phonemes/dhaal_ii.mp3"
+      },
+      {
+        "id": "dhaal_uu",
+        "letterId": "dhaal",
+        "text": "ذُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "dhuu",
+        "audio": "phonemes/dhaal_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "raa",
+    "char": "ر",
+    "name": "رَاء",
+    "consonant": "r",
+    "forms": [
+      {
+        "id": "raa_a",
+        "letterId": "raa",
+        "text": "رَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ra",
+        "audio": "phonemes/raa_a.mp3"
+      },
+      {
+        "id": "raa_i",
+        "letterId": "raa",
+        "text": "رِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ri",
+        "audio": "phonemes/raa_i.mp3"
+      },
+      {
+        "id": "raa_u",
+        "letterId": "raa",
+        "text": "رُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ru",
+        "audio": "phonemes/raa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "raa_aa",
+        "letterId": "raa",
+        "text": "رَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "raa",
+        "audio": "phonemes/raa_aa.mp3"
+      },
+      {
+        "id": "raa_ii",
+        "letterId": "raa",
+        "text": "رِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "rii",
+        "audio": "phonemes/raa_ii.mp3"
+      },
+      {
+        "id": "raa_uu",
+        "letterId": "raa",
+        "text": "رُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ruu",
+        "audio": "phonemes/raa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "zaay",
+    "char": "ز",
+    "name": "زَاي",
+    "consonant": "z",
+    "forms": [
+      {
+        "id": "zaay_a",
+        "letterId": "zaay",
+        "text": "زَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "za",
+        "audio": "phonemes/zaay_a.mp3"
+      },
+      {
+        "id": "zaay_i",
+        "letterId": "zaay",
+        "text": "زِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "zi",
+        "audio": "phonemes/zaay_i.mp3"
+      },
+      {
+        "id": "zaay_u",
+        "letterId": "zaay",
+        "text": "زُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "zu",
+        "audio": "phonemes/zaay_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "zaay_aa",
+        "letterId": "zaay",
+        "text": "زَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "zaa",
+        "audio": "phonemes/zaay_aa.mp3"
+      },
+      {
+        "id": "zaay_ii",
+        "letterId": "zaay",
+        "text": "زِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "zii",
+        "audio": "phonemes/zaay_ii.mp3"
+      },
+      {
+        "id": "zaay_uu",
+        "letterId": "zaay",
+        "text": "زُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "zuu",
+        "audio": "phonemes/zaay_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "seen",
+    "char": "س",
+    "name": "سِين",
+    "consonant": "s",
+    "forms": [
+      {
+        "id": "seen_a",
+        "letterId": "seen",
+        "text": "سَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "sa",
+        "audio": "phonemes/seen_a.mp3"
+      },
+      {
+        "id": "seen_i",
+        "letterId": "seen",
+        "text": "سِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "si",
+        "audio": "phonemes/seen_i.mp3"
+      },
+      {
+        "id": "seen_u",
+        "letterId": "seen",
+        "text": "سُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "su",
+        "audio": "phonemes/seen_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "seen_aa",
+        "letterId": "seen",
+        "text": "سَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "saa",
+        "audio": "phonemes/seen_aa.mp3"
+      },
+      {
+        "id": "seen_ii",
+        "letterId": "seen",
+        "text": "سِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "sii",
+        "audio": "phonemes/seen_ii.mp3"
+      },
+      {
+        "id": "seen_uu",
+        "letterId": "seen",
+        "text": "سُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "suu",
+        "audio": "phonemes/seen_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "sheen",
+    "char": "ش",
+    "name": "شِين",
+    "consonant": "sh",
+    "forms": [
+      {
+        "id": "sheen_a",
+        "letterId": "sheen",
+        "text": "شَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "sha",
+        "audio": "phonemes/sheen_a.mp3"
+      },
+      {
+        "id": "sheen_i",
+        "letterId": "sheen",
+        "text": "شِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "shi",
+        "audio": "phonemes/sheen_i.mp3"
+      },
+      {
+        "id": "sheen_u",
+        "letterId": "sheen",
+        "text": "شُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "shu",
+        "audio": "phonemes/sheen_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "sheen_aa",
+        "letterId": "sheen",
+        "text": "شَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "shaa",
+        "audio": "phonemes/sheen_aa.mp3"
+      },
+      {
+        "id": "sheen_ii",
+        "letterId": "sheen",
+        "text": "شِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "shii",
+        "audio": "phonemes/sheen_ii.mp3"
+      },
+      {
+        "id": "sheen_uu",
+        "letterId": "sheen",
+        "text": "شُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "shuu",
+        "audio": "phonemes/sheen_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "saad",
+    "char": "ص",
+    "name": "صَاد",
+    "consonant": "ṣ",
+    "forms": [
+      {
+        "id": "saad_a",
+        "letterId": "saad",
+        "text": "صَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ṣa",
+        "audio": "phonemes/saad_a.mp3"
+      },
+      {
+        "id": "saad_i",
+        "letterId": "saad",
+        "text": "صِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ṣi",
+        "audio": "phonemes/saad_i.mp3"
+      },
+      {
+        "id": "saad_u",
+        "letterId": "saad",
+        "text": "صُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ṣu",
+        "audio": "phonemes/saad_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "saad_aa",
+        "letterId": "saad",
+        "text": "صَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ṣaa",
+        "audio": "phonemes/saad_aa.mp3"
+      },
+      {
+        "id": "saad_ii",
+        "letterId": "saad",
+        "text": "صِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ṣii",
+        "audio": "phonemes/saad_ii.mp3"
+      },
+      {
+        "id": "saad_uu",
+        "letterId": "saad",
+        "text": "صُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ṣuu",
+        "audio": "phonemes/saad_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "daad",
+    "char": "ض",
+    "name": "ضَاد",
+    "consonant": "ḍ",
+    "forms": [
+      {
+        "id": "daad_a",
+        "letterId": "daad",
+        "text": "ضَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ḍa",
+        "audio": "phonemes/daad_a.mp3"
+      },
+      {
+        "id": "daad_i",
+        "letterId": "daad",
+        "text": "ضِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ḍi",
+        "audio": "phonemes/daad_i.mp3"
+      },
+      {
+        "id": "daad_u",
+        "letterId": "daad",
+        "text": "ضُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ḍu",
+        "audio": "phonemes/daad_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "daad_aa",
+        "letterId": "daad",
+        "text": "ضَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ḍaa",
+        "audio": "phonemes/daad_aa.mp3"
+      },
+      {
+        "id": "daad_ii",
+        "letterId": "daad",
+        "text": "ضِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ḍii",
+        "audio": "phonemes/daad_ii.mp3"
+      },
+      {
+        "id": "daad_uu",
+        "letterId": "daad",
+        "text": "ضُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ḍuu",
+        "audio": "phonemes/daad_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ttaa",
+    "char": "ط",
+    "name": "طَاء",
+    "consonant": "ṭ",
+    "forms": [
+      {
+        "id": "ttaa_a",
+        "letterId": "ttaa",
+        "text": "طَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ṭa",
+        "audio": "phonemes/ttaa_a.mp3"
+      },
+      {
+        "id": "ttaa_i",
+        "letterId": "ttaa",
+        "text": "طِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ṭi",
+        "audio": "phonemes/ttaa_i.mp3"
+      },
+      {
+        "id": "ttaa_u",
+        "letterId": "ttaa",
+        "text": "طُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ṭu",
+        "audio": "phonemes/ttaa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "ttaa_aa",
+        "letterId": "ttaa",
+        "text": "طَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ṭaa",
+        "audio": "phonemes/ttaa_aa.mp3"
+      },
+      {
+        "id": "ttaa_ii",
+        "letterId": "ttaa",
+        "text": "طِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ṭii",
+        "audio": "phonemes/ttaa_ii.mp3"
+      },
+      {
+        "id": "ttaa_uu",
+        "letterId": "ttaa",
+        "text": "طُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ṭuu",
+        "audio": "phonemes/ttaa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "zhaa",
+    "char": "ظ",
+    "name": "ظَاء",
+    "consonant": "ẓ",
+    "forms": [
+      {
+        "id": "zhaa_a",
+        "letterId": "zhaa",
+        "text": "ظَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ẓa",
+        "audio": "phonemes/zhaa_a.mp3"
+      },
+      {
+        "id": "zhaa_i",
+        "letterId": "zhaa",
+        "text": "ظِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ẓi",
+        "audio": "phonemes/zhaa_i.mp3"
+      },
+      {
+        "id": "zhaa_u",
+        "letterId": "zhaa",
+        "text": "ظُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ẓu",
+        "audio": "phonemes/zhaa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "zhaa_aa",
+        "letterId": "zhaa",
+        "text": "ظَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ẓaa",
+        "audio": "phonemes/zhaa_aa.mp3"
+      },
+      {
+        "id": "zhaa_ii",
+        "letterId": "zhaa",
+        "text": "ظِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ẓii",
+        "audio": "phonemes/zhaa_ii.mp3"
+      },
+      {
+        "id": "zhaa_uu",
+        "letterId": "zhaa",
+        "text": "ظُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ẓuu",
+        "audio": "phonemes/zhaa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ain",
+    "char": "ع",
+    "name": "عَيْن",
+    "consonant": "ʿ",
+    "forms": [
+      {
+        "id": "ain_a",
+        "letterId": "ain",
+        "text": "عَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ʿa",
+        "audio": "phonemes/ain_a.mp3"
+      },
+      {
+        "id": "ain_i",
+        "letterId": "ain",
+        "text": "عِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ʿi",
+        "audio": "phonemes/ain_i.mp3"
+      },
+      {
+        "id": "ain_u",
+        "letterId": "ain",
+        "text": "عُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ʿu",
+        "audio": "phonemes/ain_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "ain_aa",
+        "letterId": "ain",
+        "text": "عَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ʿaa",
+        "audio": "phonemes/ain_aa.mp3"
+      },
+      {
+        "id": "ain_ii",
+        "letterId": "ain",
+        "text": "عِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ʿii",
+        "audio": "phonemes/ain_ii.mp3"
+      },
+      {
+        "id": "ain_uu",
+        "letterId": "ain",
+        "text": "عُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ʿuu",
+        "audio": "phonemes/ain_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ghain",
+    "char": "غ",
+    "name": "غَيْن",
+    "consonant": "gh",
+    "forms": [
+      {
+        "id": "ghain_a",
+        "letterId": "ghain",
+        "text": "غَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "gha",
+        "audio": "phonemes/ghain_a.mp3"
+      },
+      {
+        "id": "ghain_i",
+        "letterId": "ghain",
+        "text": "غِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ghi",
+        "audio": "phonemes/ghain_i.mp3"
+      },
+      {
+        "id": "ghain_u",
+        "letterId": "ghain",
+        "text": "غُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ghu",
+        "audio": "phonemes/ghain_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "ghain_aa",
+        "letterId": "ghain",
+        "text": "غَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "ghaa",
+        "audio": "phonemes/ghain_aa.mp3"
+      },
+      {
+        "id": "ghain_ii",
+        "letterId": "ghain",
+        "text": "غِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "ghii",
+        "audio": "phonemes/ghain_ii.mp3"
+      },
+      {
+        "id": "ghain_uu",
+        "letterId": "ghain",
+        "text": "غُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "ghuu",
+        "audio": "phonemes/ghain_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "faa",
+    "char": "ف",
+    "name": "فَاء",
+    "consonant": "f",
+    "forms": [
+      {
+        "id": "faa_a",
+        "letterId": "faa",
+        "text": "فَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "fa",
+        "audio": "phonemes/faa_a.mp3"
+      },
+      {
+        "id": "faa_i",
+        "letterId": "faa",
+        "text": "فِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "fi",
+        "audio": "phonemes/faa_i.mp3"
+      },
+      {
+        "id": "faa_u",
+        "letterId": "faa",
+        "text": "فُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "fu",
+        "audio": "phonemes/faa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "faa_aa",
+        "letterId": "faa",
+        "text": "فَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "faa",
+        "audio": "phonemes/faa_aa.mp3"
+      },
+      {
+        "id": "faa_ii",
+        "letterId": "faa",
+        "text": "فِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "fii",
+        "audio": "phonemes/faa_ii.mp3"
+      },
+      {
+        "id": "faa_uu",
+        "letterId": "faa",
+        "text": "فُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "fuu",
+        "audio": "phonemes/faa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "qaaf",
+    "char": "ق",
+    "name": "قَاف",
+    "consonant": "q",
+    "forms": [
+      {
+        "id": "qaaf_a",
+        "letterId": "qaaf",
+        "text": "قَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "qa",
+        "audio": "phonemes/qaaf_a.mp3"
+      },
+      {
+        "id": "qaaf_i",
+        "letterId": "qaaf",
+        "text": "قِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "qi",
+        "audio": "phonemes/qaaf_i.mp3"
+      },
+      {
+        "id": "qaaf_u",
+        "letterId": "qaaf",
+        "text": "قُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "qu",
+        "audio": "phonemes/qaaf_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "qaaf_aa",
+        "letterId": "qaaf",
+        "text": "قَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "qaa",
+        "audio": "phonemes/qaaf_aa.mp3"
+      },
+      {
+        "id": "qaaf_ii",
+        "letterId": "qaaf",
+        "text": "قِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "qii",
+        "audio": "phonemes/qaaf_ii.mp3"
+      },
+      {
+        "id": "qaaf_uu",
+        "letterId": "qaaf",
+        "text": "قُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "quu",
+        "audio": "phonemes/qaaf_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "kaaf",
+    "char": "ك",
+    "name": "كَاف",
+    "consonant": "k",
+    "forms": [
+      {
+        "id": "kaaf_a",
+        "letterId": "kaaf",
+        "text": "كَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ka",
+        "audio": "phonemes/kaaf_a.mp3"
+      },
+      {
+        "id": "kaaf_i",
+        "letterId": "kaaf",
+        "text": "كِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ki",
+        "audio": "phonemes/kaaf_i.mp3"
+      },
+      {
+        "id": "kaaf_u",
+        "letterId": "kaaf",
+        "text": "كُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "ku",
+        "audio": "phonemes/kaaf_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "kaaf_aa",
+        "letterId": "kaaf",
+        "text": "كَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "kaa",
+        "audio": "phonemes/kaaf_aa.mp3"
+      },
+      {
+        "id": "kaaf_ii",
+        "letterId": "kaaf",
+        "text": "كِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "kii",
+        "audio": "phonemes/kaaf_ii.mp3"
+      },
+      {
+        "id": "kaaf_uu",
+        "letterId": "kaaf",
+        "text": "كُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "kuu",
+        "audio": "phonemes/kaaf_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "laam",
+    "char": "ل",
+    "name": "لَام",
+    "consonant": "l",
+    "forms": [
+      {
+        "id": "laam_a",
+        "letterId": "laam",
+        "text": "لَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "la",
+        "audio": "phonemes/laam_a.mp3"
+      },
+      {
+        "id": "laam_i",
+        "letterId": "laam",
+        "text": "لِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "li",
+        "audio": "phonemes/laam_i.mp3"
+      },
+      {
+        "id": "laam_u",
+        "letterId": "laam",
+        "text": "لُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "lu",
+        "audio": "phonemes/laam_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "laam_aa",
+        "letterId": "laam",
+        "text": "لَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "laa",
+        "audio": "phonemes/laam_aa.mp3"
+      },
+      {
+        "id": "laam_ii",
+        "letterId": "laam",
+        "text": "لِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "lii",
+        "audio": "phonemes/laam_ii.mp3"
+      },
+      {
+        "id": "laam_uu",
+        "letterId": "laam",
+        "text": "لُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "luu",
+        "audio": "phonemes/laam_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "meem",
+    "char": "م",
+    "name": "مِيم",
+    "consonant": "m",
+    "forms": [
+      {
+        "id": "meem_a",
+        "letterId": "meem",
+        "text": "مَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ma",
+        "audio": "phonemes/meem_a.mp3"
+      },
+      {
+        "id": "meem_i",
+        "letterId": "meem",
+        "text": "مِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "mi",
+        "audio": "phonemes/meem_i.mp3"
+      },
+      {
+        "id": "meem_u",
+        "letterId": "meem",
+        "text": "مُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "mu",
+        "audio": "phonemes/meem_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "meem_aa",
+        "letterId": "meem",
+        "text": "مَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "maa",
+        "audio": "phonemes/meem_aa.mp3"
+      },
+      {
+        "id": "meem_ii",
+        "letterId": "meem",
+        "text": "مِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "mii",
+        "audio": "phonemes/meem_ii.mp3"
+      },
+      {
+        "id": "meem_uu",
+        "letterId": "meem",
+        "text": "مُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "muu",
+        "audio": "phonemes/meem_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "noon",
+    "char": "ن",
+    "name": "نُون",
+    "consonant": "n",
+    "forms": [
+      {
+        "id": "noon_a",
+        "letterId": "noon",
+        "text": "نَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "na",
+        "audio": "phonemes/noon_a.mp3"
+      },
+      {
+        "id": "noon_i",
+        "letterId": "noon",
+        "text": "نِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "ni",
+        "audio": "phonemes/noon_i.mp3"
+      },
+      {
+        "id": "noon_u",
+        "letterId": "noon",
+        "text": "نُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "nu",
+        "audio": "phonemes/noon_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "noon_aa",
+        "letterId": "noon",
+        "text": "نَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "naa",
+        "audio": "phonemes/noon_aa.mp3"
+      },
+      {
+        "id": "noon_ii",
+        "letterId": "noon",
+        "text": "نِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "nii",
+        "audio": "phonemes/noon_ii.mp3"
+      },
+      {
+        "id": "noon_uu",
+        "letterId": "noon",
+        "text": "نُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "nuu",
+        "audio": "phonemes/noon_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "haa",
+    "char": "ه",
+    "name": "هَاء",
+    "consonant": "h",
+    "forms": [
+      {
+        "id": "haa_a",
+        "letterId": "haa",
+        "text": "هَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ha",
+        "audio": "phonemes/haa_a.mp3"
+      },
+      {
+        "id": "haa_i",
+        "letterId": "haa",
+        "text": "هِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "hi",
+        "audio": "phonemes/haa_i.mp3"
+      },
+      {
+        "id": "haa_u",
+        "letterId": "haa",
+        "text": "هُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "hu",
+        "audio": "phonemes/haa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "haa_aa",
+        "letterId": "haa",
+        "text": "هَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "haa",
+        "audio": "phonemes/haa_aa.mp3"
+      },
+      {
+        "id": "haa_ii",
+        "letterId": "haa",
+        "text": "هِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "hii",
+        "audio": "phonemes/haa_ii.mp3"
+      },
+      {
+        "id": "haa_uu",
+        "letterId": "haa",
+        "text": "هُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "huu",
+        "audio": "phonemes/haa_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "waaw",
+    "char": "و",
+    "name": "وَاو",
+    "consonant": "w",
+    "forms": [
+      {
+        "id": "waaw_a",
+        "letterId": "waaw",
+        "text": "وَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "wa",
+        "audio": "phonemes/waaw_a.mp3"
+      },
+      {
+        "id": "waaw_i",
+        "letterId": "waaw",
+        "text": "وِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "wi",
+        "audio": "phonemes/waaw_i.mp3"
+      },
+      {
+        "id": "waaw_u",
+        "letterId": "waaw",
+        "text": "وُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "wu",
+        "audio": "phonemes/waaw_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "waaw_aa",
+        "letterId": "waaw",
+        "text": "وَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "waa",
+        "audio": "phonemes/waaw_aa.mp3"
+      },
+      {
+        "id": "waaw_ii",
+        "letterId": "waaw",
+        "text": "وِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "wii",
+        "audio": "phonemes/waaw_ii.mp3"
+      },
+      {
+        "id": "waaw_uu",
+        "letterId": "waaw",
+        "text": "وُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "wuu",
+        "audio": "phonemes/waaw_uu.mp3"
+      }
+    ]
+  },
+  {
+    "id": "yaa",
+    "char": "ي",
+    "name": "يَاء",
+    "consonant": "y",
+    "forms": [
+      {
+        "id": "yaa_a",
+        "letterId": "yaa",
+        "text": "يَ",
+        "vowel": "fatha",
+        "length": "short",
+        "phonemes": "ya",
+        "audio": "phonemes/yaa_a.mp3"
+      },
+      {
+        "id": "yaa_i",
+        "letterId": "yaa",
+        "text": "يِ",
+        "vowel": "kasra",
+        "length": "short",
+        "phonemes": "yi",
+        "audio": "phonemes/yaa_i.mp3"
+      },
+      {
+        "id": "yaa_u",
+        "letterId": "yaa",
+        "text": "يُ",
+        "vowel": "damma",
+        "length": "short",
+        "phonemes": "yu",
+        "audio": "phonemes/yaa_u.mp3"
+      }
+    ],
+    "longForms": [
+      {
+        "id": "yaa_aa",
+        "letterId": "yaa",
+        "text": "يَا",
+        "vowel": "fatha",
+        "length": "long",
+        "phonemes": "yaa",
+        "audio": "phonemes/yaa_aa.mp3"
+      },
+      {
+        "id": "yaa_ii",
+        "letterId": "yaa",
+        "text": "يِي",
+        "vowel": "kasra",
+        "length": "long",
+        "phonemes": "yii",
+        "audio": "phonemes/yaa_ii.mp3"
+      },
+      {
+        "id": "yaa_uu",
+        "letterId": "yaa",
+        "text": "يُو",
+        "vowel": "damma",
+        "length": "long",
+        "phonemes": "yuu",
+        "audio": "phonemes/yaa_uu.mp3"
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getLetter, instruction } from '../../curriculum/content';
-import { shortDiscriminationChoices } from '../../curriculum/activities';
+import { initialSoundRounds, shortDiscriminationChoices } from '../../curriculum/activities';
 import type { Letter, VowelledSound } from '../../curriculum/types';
 import type { PronunciationTarget } from '../../services/pronunciation';
 import { useProgress } from '../hooks';
@@ -10,6 +10,7 @@ import { ArabicText } from '../components/ArabicText';
 import { Confetti, Stars } from '../components/Feedback';
 import { clipOf, DiscriminationStep, ListenStep } from '../components/LessonSteps';
 import { PronunciationStep } from '../components/PronunciationStep';
+import { InitialSoundGame } from '../components/InitialSoundGame';
 import { NotFoundScreen } from './NotFoundScreen';
 
 type Step = 'listen' | 'discriminate' | 'pronounce';
@@ -28,6 +29,8 @@ export function shortTarget(sound: VowelledSound): PronunciationTarget {
 /**
  * Teaches مَ, then مِ, then مُ — one at a time, each through
  * listen → discriminate → pronounce. Resumes at the first unfinished form.
+ * Once all three are done the child plays the initial-sound game (one round
+ * per sound that has a picture word), then sees the completion screen.
  */
 function LetterLesson({ letter }: { letter: Letter }) {
   const navigate = useNavigate();
@@ -36,6 +39,9 @@ function LetterLesson({ letter }: { letter: Letter }) {
   const [formIndex, setFormIndex] = useState(firstOpen === -1 ? 0 : firstOpen);
   const [step, setStep] = useState<Step>('listen');
   const [complete, setComplete] = useState(false);
+  const [gameRound, setGameRound] = useState(-1);
+  const [gameKey, setGameKey] = useState(0);
+  const rounds = useMemo(() => initialSoundRounds(letter), [letter, gameKey]);
   const sound = letter.forms[formIndex];
   const choices = useMemo(() => shortDiscriminationChoices(letter), [letter, formIndex]);
 
@@ -44,10 +50,35 @@ function LetterLesson({ letter }: { letter: Letter }) {
     if (formIndex < letter.forms.length - 1) {
       setFormIndex(formIndex + 1);
       setStep('listen');
+    } else if (rounds.length > 0) {
+      setGameRound(0);
     } else {
       setComplete(true);
     }
   };
+
+  const nextRound = () => {
+    if (gameRound < rounds.length - 1) {
+      setGameRound(gameRound + 1);
+    } else {
+      setGameRound(-1);
+      setComplete(true);
+    }
+  };
+
+  const playAgain = () => {
+    setGameKey(gameKey + 1);
+    setComplete(false);
+    setGameRound(0);
+  };
+
+  if (gameRound >= 0 && rounds[gameRound]) {
+    return (
+      <Screen testId="sound-game" backTo="/" right={<Dots count={rounds.length} current={gameRound} />}>
+        <InitialSoundGame key={`g-${gameKey}-${gameRound}`} round={rounds[gameRound]} onNext={nextRound} />
+      </Screen>
+    );
+  }
 
   if (complete) {
     return (
@@ -64,6 +95,11 @@ function LetterLesson({ letter }: { letter: Letter }) {
           <button className="btn green wide" onClick={() => navigate('/')} data-testid="choose-another">
             <span lang="ar">{instruction('choose_another').text}</span> <span aria-hidden>🔤</span>
           </button>
+          {rounds.length > 0 && (
+            <button className="btn wide" onClick={playAgain} data-testid="play-again">
+              <span lang="ar">{instruction('play_again').text}</span> <span aria-hidden>🎮</span>
+            </button>
+          )}
         </div>
       </Screen>
     );
@@ -92,6 +128,24 @@ function FormDots({ letter, current, completed }: { letter: Letter; current: num
           style={{
             width: 18, height: 18, borderRadius: '50%',
             background: completed[f.id] ? 'var(--ok)' : i === current ? 'var(--sun)' : 'rgba(35,50,74,.18)',
+            border: '3px solid #fff',
+          }}
+        />
+      ))}
+    </span>
+  );
+}
+
+/** Round pips for the game. */
+function Dots({ count, current }: { count: number; current: number }) {
+  return (
+    <span style={{ display: 'flex', gap: 8 }} aria-label="rounds" data-testid="game-dots">
+      {Array.from({ length: count }, (_, i) => (
+        <span
+          key={i}
+          style={{
+            width: 18, height: 18, borderRadius: '50%',
+            background: i < current ? 'var(--ok)' : i === current ? 'var(--sun)' : 'rgba(35,50,74,.18)',
             border: '3px solid #fff',
           }}
         />

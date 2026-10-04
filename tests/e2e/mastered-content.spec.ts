@@ -22,7 +22,8 @@ test('story: listen, question, wrong → listen again, right → ⭐', async ({ 
   await page.goto('/#/stories/meem');
   await expect(page.getByTestId('story-text').locator('.story-line')).toHaveCount(3);
   await page.getByTestId('listen-story').click();
-  await expect(page.getByTestId('story-question')).toBeVisible();
+  // The story is now real recorded audio, so the question appears after it finishes playing.
+  await expect(page.getByTestId('story-question')).toBeVisible({ timeout: 25_000 });
   await expect(page.getByTestId('instruction-most_letter')).toContainText('مَا أَكْثَرُ حَرْفٍ سَمِعْتَ؟');
   const choices = await page.getByTestId('choice').evaluateAll((els) => els.map((e) => e.getAttribute('data-value')));
   expect(choices).toHaveLength(3);

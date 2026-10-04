@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import { countLetters, DAMMA, FATHA, KASRA, SHADDA, SUKUN, FATHATAN, DAMMATAN, KASRATAN, segmentWord, sentenceWords } from '../../src/curriculum/arabic';
-import { INSTRUCTIONS, LETTERS, MINI_STORIES, SENTENCES, STORIES, WORDS, getSoundByText } from '../../src/curriculum/content';
+import { INSTRUCTIONS, LETTERS, MINI_STORIES, SENTENCES, SOUND_WORDS, STORIES, WORDS, getSoundByText } from '../../src/curriculum/content';
 import {
   eligibleLongWords, eligibleShortWords, eligibleSentences, eligibleStories, isWordEligible, masteredShortSounds, eligibleMiniStories,
 } from '../../src/curriculum/eligibility';
-import { analysisQuestion, buildSoundBank, isBuildCorrect, longDiscriminationChoices, shortDiscriminationChoices, storyLetterChoices } from '../../src/curriculum/activities';
+import { analysisQuestion, buildSoundBank, initialSoundRounds, isBuildCorrect, longDiscriminationChoices, shortDiscriminationChoices, storyLetterChoices } from '../../src/curriculum/activities';
 import { seededRng } from '../../src/curriculum/random';
 
 const ALPHABET = 'أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي'.split(' ');
@@ -218,5 +218,53 @@ describe('instructions', () => {
       expect(i.audio).toMatch(/^instructions\/.+\.mp3$/);
       expect(i.text).toMatch(/[َ-ِ]/);
     }
+  });
+});
+
+describe('initial-sound game', () => {
+  const shortSounds = new Map(LETTERS.flatMap((l) => l.forms).map((f) => [f.id, f]));
+
+  it('every picture word starts with exactly its sound, fully vowelled, with a picture and audio path', () => {
+    expect(new Set(SOUND_WORDS.map((w) => w.soundId)).size).toBe(SOUND_WORDS.length);
+    for (const w of SOUND_WORDS) {
+      const sound = shortSounds.get(w.soundId)!;
+      expect(sound, w.soundId).toBeDefined();
+      expect(w.sound).toBe(sound.text);
+      expect(w.letterId).toBe(sound.letterId);
+      expect(w.word.startsWith(sound.text), `${w.word} starts with ${sound.text}`).toBe(true);
+      expect(w.word.length).toBeGreaterThan(sound.text.length);
+      expect(w.emoji.length).toBeGreaterThan(0);
+      expect(w.audio).toBe(`sound-words/${w.soundId}.mp3`);
+    }
+  });
+
+  it('every letter has one to three rounds, one per sound that has a word', () => {
+    for (const l of LETTERS) {
+      const rounds = initialSoundRounds(l, seededRng(7));
+      const expected = l.forms.filter((f) => SOUND_WORDS.some((w) => w.soundId === f.id));
+      expect(rounds.map((r) => r.sound.id)).toEqual(expected.map((f) => f.id));
+      expect(rounds.length).toBeGreaterThanOrEqual(1);
+    }
+    expect(initialSoundRounds(LETTERS.find((l) => l.char === 'ض')!).length).toBe(2);
+    expect(initialSoundRounds(LETTERS.find((l) => l.char === 'ي')!).length).toBe(1);
+  });
+
+  it('each round has three different pictures and exactly one word that starts with the letter', () => {
+    for (let seed = 1; seed <= 40; seed++) {
+      for (const l of LETTERS) {
+        for (const r of initialSoundRounds(l, seededRng(seed))) {
+          expect(r.choices).toHaveLength(3);
+          expect(r.choices).toContain(r.answer);
+          expect(r.answer.soundId).toBe(r.sound.id);
+          expect(r.choices.filter((c) => c.letterId === l.id)).toEqual([r.answer]);
+          expect(new Set(r.choices.map((c) => c.letterId)).size).toBe(3);
+          expect(new Set(r.choices.map((c) => c.emoji)).size).toBe(3);
+        }
+      }
+    }
+  });
+
+  it('no letter has a round when there are no words', () => {
+    expect(initialSoundRounds(LETTERS[0], seededRng(1), [])).toEqual([]);
   });
 });

@@ -128,14 +128,19 @@ test('microphone denied → simple instructions, retry, never marked correct', a
   await expect(page.getByTestId('result-correct')).toBeVisible();
 });
 
-test('audio missing in production → visible "audio unavailable" state, flow continues', async ({ page }) => {
+test.describe('no recordings installed', () => {
   // Recordings now exist, so simulate a production build with none installed.
-  await page.context().route('**/audio/manifest.json', (route) => route.fulfill({ json: { files: {} } }));
-  await page.goto('/#/letter/meem');
-  await expect(page.getByTestId('target-audio')).toHaveAttribute('data-status', 'unavailable');
-  await expect(page.getByTestId('audio-unavailable')).toBeVisible();
-  await page.getByTestId('next').click();
-  await expect(page.getByTestId('step-discriminate')).toBeVisible();
+  // The service worker is blocked so it cannot fetch the real audio list behind the mock.
+  test.use({ serviceWorkers: 'block' });
+
+  test('audio missing in production → visible "audio unavailable" state, flow continues', async ({ page }) => {
+    await page.context().route('**/audio/manifest.json', (route) => route.fulfill({ json: { files: {} } }));
+    await page.goto('/#/letter/meem');
+    await expect(page.getByTestId('target-audio')).toHaveAttribute('data-status', 'unavailable');
+    await expect(page.getByTestId('audio-unavailable')).toBeVisible();
+    await page.getByTestId('next').click();
+    await expect(page.getByTestId('step-discriminate')).toBeVisible();
+  });
 });
 
 test('back/home navigation from every main screen', async ({ page }) => {

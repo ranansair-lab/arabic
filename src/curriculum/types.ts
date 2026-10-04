@@ -98,3 +98,20 @@ export interface PronunciationAttempt {
   detected?: string;
   engine: string;
 }
+
+/**
+ * A familiar picture word that BEGINS with a taught short sound (مَ → مَطَر).
+ * Used only by the listening game after a letter is mastered: the child hears
+ * the sound and picks the word that starts with it. These words are heard, not
+ * decoded, so they may contain letters and marks the child has not learned yet.
+ */
+export interface SoundWord {
+  /** Id of the short vowelled sound the word starts with, e.g. "meem_a". */
+  soundId: string;
+  letterId: string;
+  sound: string;
+  word: string;
+  emoji: string;
+  gloss: string;
+  audio: string;
+}

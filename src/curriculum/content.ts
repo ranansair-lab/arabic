@@ -4,7 +4,8 @@ import storiesJson from '../data/stories.json';
 import sentencesJson from '../data/sentences.json';
 import miniStoriesJson from '../data/mini-stories.json';
 import instructionsJson from '../data/instructions.json';
-import type { DecodableWord, Instruction, Letter, MiniStory, Sentence, Story, VowelledSound } from './types';
+import soundWordsJson from '../data/sound-words.json';
+import type { DecodableWord, Instruction, Letter, MiniStory, Sentence, SoundWord, Story, VowelledSound } from './types';
 
 export const LETTERS = lettersJson as Letter[];
 export const WORDS = wordsJson as DecodableWord[];
@@ -12,6 +13,7 @@ export const STORIES = storiesJson as Story[];
 export const SENTENCES = sentencesJson as Sentence[];
 export const MINI_STORIES = miniStoriesJson as MiniStory[];
 export const INSTRUCTIONS = instructionsJson as Instruction[];
+export const SOUND_WORDS = soundWordsJson as SoundWord[];
 
 const letterById = new Map(LETTERS.map((l) => [l.id, l]));
 const letterByChar = new Map(LETTERS.map((l) => [l.char, l]));

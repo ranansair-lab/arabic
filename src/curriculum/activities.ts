@@ -3,9 +3,9 @@
  * letters passed in here must already be filtered by the mastered-letter rule.
  */
 import { countLetters } from './arabic';
-import { getSoundByText, LETTERS } from './content';
+import { getSoundByText, LETTERS, SOUND_WORDS } from './content';
 import { shuffle, shuffleChanged, type Rng, defaultRng } from './random';
-import type { DecodableWord, Letter, Story, VowelledSound } from './types';
+import type { DecodableWord, Letter, SoundWord, Story, VowelledSound } from './types';
 
 // ---------------------------------------------------------------------------
 // Letter lesson — sound discrimination
@@ -153,4 +153,39 @@ export function practiceQueue<T extends { id: string }>(items: readonly T[], don
   const fresh = shuffle(items.filter((i) => !doneCounts[i.id]), rng);
   const seen = shuffle(items.filter((i) => doneCounts[i.id]), rng);
   return [...fresh, ...seen];
+}
+
+// ---------------------------------------------------------------------------
+// Initial-sound game — played once a letter's three sounds are mastered
+// ---------------------------------------------------------------------------
+
+export interface InitialSoundRound {
+  /** The sound the child hears (مَ). */
+  sound: VowelledSound;
+  /** The word that starts with it (مَطَر). */
+  answer: SoundWord;
+  /** The answer plus two words that start with OTHER letters, shuffled. */
+  choices: SoundWord[];
+}
+
+/**
+ * One round for each sound of the letter that has a picture word — so one,
+ * two or three rounds. Distractors always start with a different letter, so
+ * there is exactly one right answer.
+ */
+export function initialSoundRounds(letter: Letter, rng: Rng = defaultRng, words: readonly SoundWord[] = SOUND_WORDS): InitialSoundRound[] {
+  const others = words.filter((w) => w.letterId !== letter.id);
+  const rounds: InitialSoundRound[] = [];
+  for (const sound of letter.forms) {
+    const answer = words.find((w) => w.soundId === sound.id);
+    if (!answer) continue;
+    const distractors: SoundWord[] = [];
+    for (const w of shuffle(others, rng)) {
+      if (distractors.length === 2) break;
+      if (distractors.some((d) => d.letterId === w.letterId || d.emoji === w.emoji) || w.emoji === answer.emoji) continue;
+      distractors.push(w);
+    }
+    rounds.push({ sound, answer, choices: shuffle([answer, ...distractors], rng) });
+  }
+  return rounds;
 }

@@ -129,6 +129,8 @@ test('microphone denied → simple instructions, retry, never marked correct', a
 });
 
 test('audio missing in production → visible "audio unavailable" state, flow continues', async ({ page }) => {
+  // Recordings now exist, so simulate a production build with none installed.
+  await page.context().route('**/audio/manifest.json', (route) => route.fulfill({ json: { files: {} } }));
   await page.goto('/#/letter/meem');
   await expect(page.getByTestId('target-audio')).toHaveAttribute('data-status', 'unavailable');
   await expect(page.getByTestId('audio-unavailable')).toBeVisible();
